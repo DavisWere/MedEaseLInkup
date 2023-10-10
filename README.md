@@ -1,0 +1,2 @@
+# MedEaseLInkup
+hospital management system
