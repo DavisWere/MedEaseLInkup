@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+   
+  background-image:
+  url("images/doctor\ 6.jpg");
+  background-position:center;
+  background-size: cover;
+}
+.header{
+  background-color: azure;
+  display: block;
+ margin-top: 40px;
+ min-height:80vh;
+ justify-content: center;
+ position: relative;
+ text-align: center;
+ max-width: 430px;
+ width: 100%;
+ background: #fff;
+ margin-left :38%;
+ border-radius: 6px;
+ box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+ 
+  
+}
+.type input{
+    height: 90%;
+    width: 50%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-size: large;
+  }
+  

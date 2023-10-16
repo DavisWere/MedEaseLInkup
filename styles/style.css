@@ -1,0 +1,465 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: 0;
+}
+
+#sidebar {
+  display: block;
+  width: 8vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  overflow-y: hidden;
+}
+#sidebar #myLogo {
+  text-align: center;
+  padding: 10px;
+}
+#sidebar #myLogo img {
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+#sidebar ul {
+  margin-top: 20px;
+}
+#sidebar ul li {
+  text-align: center;
+  margin-left: -35px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+#sidebar ul li a {
+  text-decoration: none;
+  color: rgb(62, 71, 116);
+}
+#sidebar ul li a:hover {
+  font-weight: bold;
+  color: black;
+}
+
+.content-container {
+  width: 92vw;
+  height: auto;
+  display: flex;
+}
+
+.main {
+  width: 70%;
+  text-align: center;
+  height: auto;
+  overflow-y: hidden;
+}
+.main .topbar {
+  min-height: 15vh;
+  padding: 10px;
+  background-color: rgb(62, 71, 116);
+  color: whitesmoke;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main .topbar .topnav{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .topbar #toggle {
+  display: none;
+  cursor: pointer;
+}
+.main .topbar #close {
+  display: none;
+  cursor: pointer;
+}
+.main .topbar #header1 span{
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+.main .topbar #header2{
+display: none;
+}
+.main .topbar .searchCont {
+  display: flex;
+  align-items: center;
+}
+.main .topbar .searchCont input {
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.main section {
+  overflow-y: auto;
+  height: 700px;
+  padding: 20px;
+}
+.main section .count-containers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.main section .count-containers #patient-count {
+  background-color: whitesmoke;
+  color: rgba(81, 245, 5, 0.788);
+  height: 20vh;
+  width: 15vw;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.main section .count-containers #doctor-count {
+  background-color: whitesmoke;
+  color: rgba(247, 0, 255, 0.842);
+  height: 20vh;
+  width: 15vw;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.main section .count-containers #staff-count {
+  background-color: whitesmoke;
+  color: rgba(252, 165, 3, 0.87);
+  min-height: 20vh;
+  width: 15vw;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+}
+.main section .chart img {
+  width: 780px;
+  height: 400px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 26px;
+  margin-bottom: 10px;
+}
+
+.aside {
+  width: 30%;
+  height: auto;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.aside .myIcon {
+  background-color: rgba(62, 71, 116, 0.231372549);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+  height: 30vh;
+}
+.aside .myIcon #profile{
+  border-radius: 50%;
+}
+
+.aside .myIcon #myName {
+  color: rgb(62, 71, 116);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.aside .appointments {
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 30px;
+  height: 30vh;
+  overflow-y: auto;
+}
+.aside .appointments h2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(62, 71, 116);
+  text-shadow: 3px 2px 6px;
+}
+.aside .appointments ul {
+  font-size: 15px;
+}
+.aside .appointments ul li {
+  text-align: left;
+  list-style-type: none;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: -35px;
+}
+.aside .notifications {
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 30px;
+  height: 30vh;
+  overflow-y: auto;
+}
+.aside .notifications h2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(62, 71, 116);
+  text-shadow: 3px 2px 6px;
+}
+.aside .notifications ul {
+  font-size: 15px;
+}
+.aside .notifications ul li {
+  text-align: left;
+  list-style-type: none;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: -35px;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(62, 71, 116);
+  color: white;
+  padding: 15px;
+}
+
+@media screen and (max-width: 1292px) {
+#sidebar{
+  height: auto;
+
+  overflow-y: hidden;
+}
+
+
+.container{
+  height: auto;
+  overflow-y: hidden;
+}
+.content-container{
+  width: 92vw;
+  flex-direction: column;
+}
+
+.main{
+  width: 92vw;
+  min-height: 650px;
+  overflow-y: scroll;
+}
+section{
+  min-height: 650px;
+  overflow-y: auto;
+}
+.aside{
+  width: 90vw;
+  min-height: 260px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.aside .myIcon{
+  background-color: whitesmoke;
+}
+.aside .appointments{
+height: 250px;
+}
+.aside .notifications{
+height: 250px;
+}
+}
+
+@media screen and (max-width: 962px) {
+.main .topbar #toggle{
+    display: block;
+    font-weight: bold;
+}
+#sidebar{
+  display: none;
+}
+.content-container{
+  min-width: 100vw;
+}
+.main{
+  min-width: 100vw;
+}
+.main section{
+  overflow-y: hidden;
+}
+
+.aside{
+  min-width: 96vw;
+  min-height: 220px;
+}
+.aside .appointments{
+  max-height: 200px;
+}
+.aside .notifications{
+  max-height: 200px;
+}
+
+}
+@media screen and (max-width: 850px) {
+  .main .topbar .topnav{
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: -80px;
+  }
+  #toggle{
+margin-left: -60px;
+  }
+.main .topbar .topnav #header1{
+  display: none;
+}
+.main .topbar .topnav #header2{
+  display: inline-block;
+
+}
+.main section{
+  margin-bottom: 10px;
+  overflow-y: hidden;
+}
+.main section .chart img{
+  width: 580px;
+  height: 300px;
+}
+.aside{
+  margin-top: -100px;
+}
+.aside .myIcon{
+  display: none;
+}
+
+}
+@media screen and (max-width: 640px) {
+  .main section{
+    overflow-y: hidden;
+  }
+.main .chart img{
+  max-width: 500px;
+  height: 150px;
+}
+.main .topbar .topnav #header1{
+  margin-right: -100px;
+  display: inline-block;
+}
+.main .topbar .topnav #header2{
+  display: none;
+}
+.main .topnav .searchCont{
+  display: none;
+}
+}
+@media screen and (max-width: 544px) {
+.main section{
+    height: 990px;
+    overflow-y: hidden;
+  }
+
+  .main .chart img{
+    max-width: 400px;
+    height: 130px;
+  }
+  .count-containers{
+    flex-direction: column;
+  
+  }
+  #patient-count{
+    min-width: 300px;
+    margin-bottom: 10px;
+    height: 50px;
+  }
+  #doctor-count{
+    min-width: 300px;
+    margin-bottom: 10px;
+  }
+  #staff-count{
+    min-width: 300px;
+    margin-bottom: 10px;
+  }
+  .aside{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
+  .aside .appointments{
+    width: 250px;
+  }
+  .aside .notifications{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 492px) {
+.main{
+  height: 900px;
+}
+  .main section{
+  background-color: rgb(201, 207, 238);
+
+}
+  .count-containers{
+  flex-direction: column;
+
+}
+#patient-count{
+  min-width: 300px;
+  margin-bottom: 10px;
+  background-color: rgb(62, 71, 116);
+}
+#doctor-count{
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+#staff-count{
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+.aside{
+  max-height: 400px;
+}
+}
+/* @media screen and (max-width: 438px) {
+ .main section .chart img{
+    max-width: 320px;
+    height: 140px;
+  }
+ .main .topbar .topnav #header1{
+    display: none;
+  }
+  .main .topbar .topnav #header2{
+    display: inline-block;
+  }
+} */
