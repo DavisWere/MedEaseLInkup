@@ -1,2 +1,3 @@
 # MedEaseLInkup
-hospital management system
+the application that links doctors to patients remotely
+
