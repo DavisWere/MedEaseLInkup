@@ -13,6 +13,7 @@ if (isset($_POST['submit'])) {
     // User found, log them in
     $success = "Login successful!";
     header ("location:support_staff.php");
+   //Adding a comment//
 
     
   } else {
