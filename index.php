@@ -6,109 +6,39 @@
     <title>MedEaseLinkup home page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monospace">
-    <link rel="stylesheet" href="index_styles.css">
-    <style>
-        nav{
-            background-color: rgb(148, 148, 223);
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            /* color: white; */
-            font-size: 20px;
-            height: 12vh;
-        }
-        .navigation-ul{
-            display: flex;
-            justify-content: space-between;
-        }
-        .navigation-li{
-            list-style-type: none;
-            padding: 10px;
-        }
-        .navigation-li .navigation-a{
-            text-decoration: none;
-            font-weight: bold;
-            color: rgb(105, 94, 94);
-        }
-        .searchbar input{
-            padding: 10px;
-            border-radius: 25px;
-            border: none;
-            width: 20vw;
-        }
-        .top{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-    </style>
+    <link rel="stylesheet" href="indexstyle.css">
 </head>
 
   <body>
-    <!--Navigation Bar Start-->
+    <!-- Not yet scalable to smaller screen sizes
+    yet to add services, about and blog/news article-->
         <!-- Navigation Bar Start -->
         <nav>
             <div class="top">
-                <img style="border-radius: 50%;width: 60px; height: 60px;" src="images/mylogo.jpg" alt="logo">
-                <h2 style="padding: 20px; font-weight: bold;">MedEaseLinkUp</h2>
+                <img style="border-radius: 50%;width: 60px; height: 60px;" src="doctor-1.jpg" alt="logo">
+                <h2 style="padding: 20px; font-weight: bold;">MED-EASE</h2>
+            </div>
+            <div class="searchbar">
+                <input type="search" name="searchbar" id="search" placeholder="Search..">
+                <div><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </div>
             </div>
            <div class="navigation" style="padding-top: 12px;">
                 <ul class="navigation-ul">
                     <li class="navigation-li"><a class="navigation-a" href="index.php">Home</a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="#">Services</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#">About</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="#">Resources</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="#">Contact Us</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="user_type.php">Register</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="user_type.php">Login</a></li>
-    
+                    <li class="navigation-li"><a class="navigation-a" href="#">Blog</a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="#testimonials">Testimonials</a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="#"><b>REGISTER</b></a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="#"><b>LOGIN</b></a></li>
                 </ul>
            </div> 
-           <div class="searchbar">
-                <input type="search" name="searchbar" id="search" placeholder="Search..">
-           </div>
+
         </nav>
         <!-- navbar end -->
-
-      <!-- <nav style="background-color: blue;" class="navbar navbar-expand-lg bg-body-tertiary bg-secondary nav justify-content-center" >
-        <div class="container-fluid">  
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item"> -->
-                <!-- <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Blog</a>
-              </li> -->
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Log In
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Doctor</a></li>
-                  <li><a class="dropdown-item" href="#">Patient</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Support Staff</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav> -->
-      
-    <!--Navigation Bar End-->
 
     <!--Image Carousel-->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -119,24 +49,27 @@
           </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="1000">
-            <img src="doctor-1.jpg" height="700px" class="d-block w-100" alt="...">
+            <img src="doctor-1.jpg" height="500px" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Hello there</h5>
-                <p>Welcome to MedEaseLinkup.</p>
+            <div class="welcomeText">
+                    <p>Welcome to MedEaseLinkup</p>
+                </div>
               </div>
           </div>
           <div class="carousel-item" data-bs-interval="1000">
-            <img src="doctor-2.jpg" height="700px" class="d-block w-100" alt="...">
+            <img src="doctor-2.jpg" height="500px" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-            <h5>Hello there</h5>
-                <p>Welcome to MedEaseLinkup.</p>
-              </div>
+                <div class="welcomeText">
+                    <p>Welcome to MedEaseLinkup</p>
+                </div>
+            </div>
           </div>
           <div class="carousel-item" data-bs-interval="1000">
-            <img src="doctor-5.jpg" height="700px" width="auto"class="d-block w-100" alt="...">
+            <img src="doctor-5.jpg" height="500px" width="auto"class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-            <h5>Hello there</h5>
-                <p>Welcome to MedEaseLinkup.</p>
+            <div class="welcomeText">
+                    <p>Welcome to MedEaseLinkup</p>
+                </div>
               </div>
           </div>
         </div>
@@ -250,361 +183,65 @@
         </div>
     </div>
     
-
-      <!-- Page Divider Start -->
-      <div class="divider" style="border-bottom: 3px solid rgb(35, 59, 51); margin-right: 100px; margin-left: 100px; margin-bottom: 1; margin-top: 50px;"></div>
-      <!-- Page Divider End -->
-
-      <br><br>
-      <div class="container text-center">
-        <h3>At A Glance</h3>
-        <div class="divider" style="border-bottom: 1.95px dotted rgb(35, 59, 51); margin-right: 600px; margin-left: 600px; margin-bottom: 5px; margin-top: 2px;"></div>
-        <br>
-        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-            <div class="col">
-                <div class="p-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-calendar-heart" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5ZM1 14V4h14v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1Zm7-6.507c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
-                    </svg>
-                    <br><br>
-                    <p class="glance-txt">Daily Updates</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="p-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
-                        <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
-                    </svg>
-                    <br><br>
-                    <p class="glance-txt">Overviews & Recommendations</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="p-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-capsule-pill" viewBox="0 0 16 16">
-                        <path d="M11.02 5.364a3 3 0 0 0-4.242-4.243L1.121 6.778a3 3 0 1 0 4.243 4.243l5.657-5.657Zm-6.413-.657 2.878-2.879a2 2 0 1 1 2.829 2.829L7.435 7.536 4.607 4.707ZM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm-.5 1.042a3 3 0 0 0 0 5.917V9.042Zm1 5.917a3 3 0 0 0 0-5.917v5.917Z"/>
-                    </svg>
-                    <br><br>
-                    <p class="glance-txt">Micromedex Drug Content</p>
-                </div> 
-            </div>
-            <div class="col">
-                <div class="p-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-phone-vibrate-fill" viewBox="0 0 16 16">
-                        <path d="M4 4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4zm5 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0zM1.807 4.734a.5.5 0 1 0-.884-.468A7.967 7.967 0 0 0 0 8c0 1.347.334 2.618.923 3.734a.5.5 0 1 0 .884-.468A6.967 6.967 0 0 1 1 8c0-1.18.292-2.292.807-3.266zm13.27-.468a.5.5 0 0 0-.884.468C14.708 5.708 15 6.819 15 8c0 1.18-.292 2.292-.807 3.266a.5.5 0 0 0 .884.468A7.967 7.967 0 0 0 16 8a7.967 7.967 0 0 0-.923-3.734zM3.34 6.182a.5.5 0 1 0-.93-.364A5.986 5.986 0 0 0 2 8c0 .769.145 1.505.41 2.182a.5.5 0 1 0 .93-.364A4.986 4.986 0 0 1 3 8c0-.642.12-1.255.34-1.818zm10.25-.364a.5.5 0 0 0-.93.364c.22.563.34 1.176.34 1.818 0 .642-.12 1.255-.34 1.818a.5.5 0 0 0 .93.364C13.856 9.505 14 8.769 14 8c0-.769-.145-1.505-.41-2.182z"/>
-                    </svg>
-                    <br><br>
-                    <p class="glance-txt">Alerts When Topics Change</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="p-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16" >
-                        <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
-                    </svg>
-                    <br><br>
-                    <p class="glance-txt">Free Mobile App</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="p-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-fingerprint" viewBox="0 0 16 16">
-                        <path d="M8.06 6.5a.5.5 0 0 1 .5.5v.776a11.5 11.5 0 0 1-.552 3.519l-1.331 4.14a.5.5 0 0 1-.952-.305l1.33-4.141a10.5 10.5 0 0 0 .504-3.213V7a.5.5 0 0 1 .5-.5Z"/>
-                        <path d="M6.06 7a2 2 0 1 1 4 0 .5.5 0 1 1-1 0 1 1 0 1 0-2 0v.332c0 .409-.022.816-.066 1.221A.5.5 0 0 1 6 8.447c.04-.37.06-.742.06-1.115V7Zm3.509 1a.5.5 0 0 1 .487.513 11.5 11.5 0 0 1-.587 3.339l-1.266 3.8a.5.5 0 0 1-.949-.317l1.267-3.8a10.5 10.5 0 0 0 .535-3.048A.5.5 0 0 1 9.569 8Zm-3.356 2.115a.5.5 0 0 1 .33.626L5.24 14.939a.5.5 0 1 1-.955-.296l1.303-4.199a.5.5 0 0 1 .625-.329Z"/>
-                        <path d="M4.759 5.833A3.501 3.501 0 0 1 11.559 7a.5.5 0 0 1-1 0 2.5 2.5 0 0 0-4.857-.833.5.5 0 1 1-.943-.334Zm.3 1.67a.5.5 0 0 1 .449.546 10.72 10.72 0 0 1-.4 2.031l-1.222 4.072a.5.5 0 1 1-.958-.287L4.15 9.793a9.72 9.72 0 0 0 .363-1.842.5.5 0 0 1 .546-.449Zm6 .647a.5.5 0 0 1 .5.5c0 1.28-.213 2.552-.632 3.762l-1.09 3.145a.5.5 0 0 1-.944-.327l1.089-3.145c.382-1.105.578-2.266.578-3.435a.5.5 0 0 1 .5-.5Z"/>
-                        <path d="M3.902 4.222a4.996 4.996 0 0 1 5.202-2.113.5.5 0 0 1-.208.979 3.996 3.996 0 0 0-4.163 1.69.5.5 0 0 1-.831-.556Zm6.72-.955a.5.5 0 0 1 .705-.052A4.99 4.99 0 0 1 13.059 7v1.5a.5.5 0 1 1-1 0V7a3.99 3.99 0 0 0-1.386-3.028.5.5 0 0 1-.051-.705ZM3.68 5.842a.5.5 0 0 1 .422.568c-.029.192-.044.39-.044.59 0 .71-.1 1.417-.298 2.1l-1.14 3.923a.5.5 0 1 1-.96-.279L2.8 8.821A6.531 6.531 0 0 0 3.058 7c0-.25.019-.496.054-.736a.5.5 0 0 1 .568-.422Zm8.882 3.66a.5.5 0 0 1 .456.54c-.084 1-.298 1.986-.64 2.934l-.744 2.068a.5.5 0 0 1-.941-.338l.745-2.07a10.51 10.51 0 0 0 .584-2.678.5.5 0 0 1 .54-.456Z"/>
-                        <path d="M4.81 1.37A6.5 6.5 0 0 1 14.56 7a.5.5 0 1 1-1 0 5.5 5.5 0 0 0-8.25-4.765.5.5 0 0 1-.5-.865Zm-.89 1.257a.5.5 0 0 1 .04.706A5.478 5.478 0 0 0 2.56 7a.5.5 0 0 1-1 0c0-1.664.626-3.184 1.655-4.333a.5.5 0 0 1 .706-.04ZM1.915 8.02a.5.5 0 0 1 .346.616l-.779 2.767a.5.5 0 1 1-.962-.27l.778-2.767a.5.5 0 0 1 .617-.346Zm12.15.481a.5.5 0 0 1 .49.51c-.03 1.499-.161 3.025-.727 4.533l-.07.187a.5.5 0 0 1-.936-.351l.07-.187c.506-1.35.634-2.74.663-4.202a.5.5 0 0 1 .51-.49Z"/>
-                    </svg>
-                    <br><br>
-                    <p class="glance-txt">Single Sign-On</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="p-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
-                        <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
-                    </svg>
-                    <br><br>
-                    <p class="glance-txt">Robust Multimedia</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="p-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-motherboard-fill" viewBox="0 0 16 16">
-                        <path d="M5 7h3V4H5v3Z"/>
-                        <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm11 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7Zm2 0a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7ZM3.5 10a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM4 4h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3a1 1 0 0 0-1 1Zm7 7.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0-.5.5Z"/>
-                    </svg>
-                    <br><br>
-                    <p class="glance-txt">CME and MOC</p>
-                </div>
-            </div>
-
-        </div>  
-      </div>
-
-      <!-- Pricing Start -->
-      <br>
-      <div>
-        <h3 style="text-align: center;">Welcome To The Silicon Valley</h3>
-        <br>
-        <p style="text-align: center;">Get The Membership Card and Get To Enjoy Premium Priviledges From the <a href="index.html"><b>MedEaseLinkUp</b></a> Platform. Check Out The PriceList Below.</p>
-      </div>
-      <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col" style="border-top: 1px solid rgb(13, 13, 14); border-right: 1px solid rgb(122, 122, 230); margin: 5px; max-width: 450px;">
-            <div>
-                <br>
-                <h4 style="text-align: center;">Basic</h4>
-                <p style="text-align: center; font-size: 20px;">Best For Students</p>
-            </div>
-            <div>
-                <h1 style="text-align: center;">Free</h1>
-            </div>
-            <br>
-            <div>
-                <ul style="list-style-type: none; margin: auto;">
-                    <li>
-                        <p style="text-align: center;">
-                            <svg style="color: red; align-items:left;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Initial System Configuration
-                        </p>
-                    </li>
-                    <li>
-                        <p style=" padding-right: 15px;" >
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Robust Multimedia
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Micromedex Drug Content
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Alerts When Topics Change
-                        </p>
-                    </li>
-                    <li>
-                        <p style="padding-right: 40px;">
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Daily Updates
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <button type="button" class="btn btn-outline-primary btn-lg member-btn" style="float: center; margin: 5px; border-radius: 22.5px;">Join?</button>
-          </div>
-
-          <div class="col" style="border-top: 1px solid rgb(122, 122, 230); border-right: 1px solid rgb(13, 13, 14); margin: 5px; max-width: 450px;">
-            <div>
-                <br>
-                <h4 style="text-align: center;">Starter</h4>
-                <p style="text-align: center; font-size: 20px;">Best For Families</p>
-            </div>
-            <div>
-                <h1 style="text-align: center;">KES 50,000</h1>
-            </div>
-            <br>
-            <div>
-                <ul style="list-style-type: none; margin: auto;">
-                    <li>
-                        <p style="text-align: center;">
-                            <svg style="color: red; align-items:left;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Initial System Configuration
-                        </p>
-                    </li>
-                    <li>
-                        <p style=" padding-right: 15px;" >
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Robust Multimedia
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Micromedex Drug Content
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Alerts When Topics Change
-                        </p>
-                    </li>
-                    <li>
-                        <p style="padding-right: 40px;">
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Daily Updates
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <button type="button" class="btn btn-outline-primary btn-lg member-btn" style="float: center; margin: 5px; border-radius: 22.5px;">Join?</button>
-          </div>
-
-          <div class="col" style="border-right: 1px solid rgb(122, 122, 230); border-top: 1px solid rgb(13, 13, 14); margin: 5px; max-width: 450px;">
-            <div>
-                <br>
-                <h4 style="text-align: center;">Premium</h4>
-                <p style="text-align: center; font-size: 20px;">Best For Companies</p>
-            </div>
-            <div>
-                <h1 style="text-align: center;">KES 75,000</h1>
-            </div>
-            <br>
-            <div>
-                <ul style="list-style-type: none; margin: auto;">
-                    <li>
-                        <p style="padding-right: 5px;">
-                            <svg style="color: red; align-items:left;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Initial System Configuration
-                        </p>
-                    </li>
-                    <li>
-                        <p style=" padding-right: 20px;" >
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Robust Multimedia
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Micromedex Drug Content
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Alerts When Topics Change
-                        </p>
-                    </li>
-                    <li>
-                        <p style="padding-right: 40px;">
-                            <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
-                            </svg>
-                            Daily Updates
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <button type="button" class="btn btn-outline-primary btn-lg member-btn" style="float: center; margin: 5px; border-radius: 22.5px;">Join?</button>
-          </div>
+    <!-- Testimonials -->
+    <div class="testimonialCont" id="testimonials">
+    <h2>TESTIMONIALS</h2>
+    <div class="testimonials">
+        
+        <div class="testimony">
+            <img src="doctor-1.jpg" alt="image" width="100px" height="100px" style="border-radius: 50%;">
+            <p>John Doe</p>
+            <blockquote>&quot;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, veniam harum? Reiciendis, autem accusantium. Possimus rem esse neque enim&quot;</blockquote>
         </div>
-      </div>
-      <!-- Pricing End -->
+        <div class="testimony">
+            <img src="doctor-1.jpg" alt="image" width="100px" height="100px" style="border-radius: 50%;">
+            <p>John Doe</p>
+            <blockquote>&quot;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, veniam harum? Reiciendis, autem accusantium. &quot;</blockquote>
+        </div>
+        <div class="testimony">
+            <img src="doctor-1.jpg" alt="image" width="100px" height="100px" style="border-radius: 50%;">
+            <p>John Doe</p>
+            <blockquote>&quot;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, veniam harum? Reiciendis, autem accusan ess!&quot;</blockquote>
+        </div>
+    </div>
+    </div>
+
+    <!-- Testimonials End -->
+     <!-- Contact Us Form start -->
+     <div class="contactusCont">
+        <h2><b>CONTACT US</b></h2>
+        <form action="" method="post">
+            <label for="email" id="email">Email Address:</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email.."><br>
+            <label for="message" id="message">Message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter enquiry.."></textarea><br>
+            <input style="width: 300px; background-color:black; color: white;border: none;" type="submit" id="submitbtn"  value="Submit">
+        </form>
+     </div>
+     <!-- Contact us end -->
    <!-- body-content end -->
 
 
    <!-- Footer Start -->
-   <br>
-   <footer style="background-color: rgba(230, 229, 215, 0.308);">
-    <div class="container text-center">
-        <div class="row align-items-center">
+   <footer>
+    <div class="container text-center" style="border-bottom: 3px solid black;">
+        <div class="row align-items-center" style="padding: 30px;">
           <div class="col">
-            <h3><span>M</span>ed<span>Ease</span><span>Li</span>nku<span>p</span></h3>
+            <img src="doctor-1.jpg" alt="logo" width="60px" height="60px" style="border-radius: 50%;">
+            <h3>MED-EASE</h3>
           </div>
-
-          
-          <div class="col">
-            <br>
-            <h5 style="text-align: center;">About Us</h5>
-            <div class="col">
-            <ul style="list-style-type: none;" class="footer_links">
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Offices</a></li>
-                <li><a href="#">Leadership</a></li>
-                <li><a href="#">Corporate Responsibility</a></li>
-            </ul>
-            </div>  
-          </div>
-
-          <div class="col">
-            <br>
-            <h5>Technology</h5>
-            <div class="col">
-            <ul style="list-style-type: none;" class="footer_links">
-                <li><a href="#">Open for Research</a></li>
-                <li><a href="#">Open Source</a></li>
-                <li><a href="#">Accessibility</a></li>
-                <li><a href="#">Open Access</a></li>
-            </ul>
-            </div>
-          </div>
-
-          <div class="col">
-            <br><br>
-            <h5>Helpful Links</h5>
-            <div class="col">
+            <div class="col bottomnav">    
+            <h5>Navigation</h5>
                 <ul style="list-style-type: none;" class="footer_links">
-                    <li><a href="#">Resources</a></li>
-                    <li><a href="#">News Center</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">New Article</a></li>
+                    <li><a href="#">Testimonials</a></li>
                 </ul>
-            </div>
-          </div>
-          
-          <div class="col">
-            <h5>Sign In</h5>
-            <div class="col">
-                <ul style="list-style-type: none;" class="footer_links">
-                    <li><a href="#">MedEaseLinkUp Doctor</a></li>
-                    <li><a href="#">MedEaseLinkUp Patient</a></li>
-                    <li><a href="#">MedEaseLinkUp Support</a></li>
-                    <li></li>
-                </ul>
-            </div>
-          </div>
-          <br><br>
-        </div>
-
-        <!-- Footer-Divider Start-->
-        <div class="divider" style="border-bottom: 3px solid rgb(35, 59, 51); margin-right: 80px; margin-left: 80px; margin-bottom: 50px; margin-top: 50px;"></div>
-        <!-- Footer-Divider End -->
-    </div>
-    
-    <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col">
-            <p> <a href="#">Privacy Policy</a>  |  <a href="#">Cookie Policy</a>  |  <a href="#">Terms of Use</a> </p>
-          </div>
-          <div class="col">
-            <p>&copy;MedEaseLinkUp Services. All Rights Reserved.</p>
-          </div>
-          <div class="col">
+            </div> 
+            <div class="col social-icons">
+                <h5>Social Profile links</h5>
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="27px" height="27px" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                         <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
@@ -624,7 +261,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="27px" height="27px" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                     </svg>
-                </a>
+                </a><br>
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="27px" height="27px" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" style="margin: 5px; color: rgb(80, 83, 74);">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
@@ -647,18 +284,26 @@
                         <path fill-rule="evenodd" d="M0 8c0-4.411 3.589-8 8-8 4.41 0 8 3.589 8 8s-3.59 8-8 8c-4.411 0-8-3.589-8-8zm.367 0c0 4.209 3.424 7.633 7.633 7.633 4.208 0 7.632-3.424 7.632-7.633C15.632 3.79 12.208.367 8 .367 3.79.367.367 3.79.367 8z"/>
                     </svg>
                 </a>
+          </div> 
+          
+        </div>
+    </div>
+    
+    <div class="container text-center" style="margin-top: 30px;">
+        <div class="row align-items-start">
+          <div class="col copyright">
+            <p> <a href="#">Privacy Policy</a>  |  <a href="#">Cookie Policy</a>  |  <a href="#">Terms of Use</a> </p>
           </div>
+          <div class="col">
+            <p>&copy;MedEaseLinkUp Services. All Rights Reserved.</p>
+          </div>
+
         </div>
     </div>
     <br><br>
    </footer>
    <!-- Footer End -->
-
-
-
-
-
-
+    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

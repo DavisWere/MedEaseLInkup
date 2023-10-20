@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+/* navigation bar start*/
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(62, 71, 116);
+    color: white;
+}
+nav .top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav .top h2 {
+    font-size: 40px;
+    letter-spacing: .05em;
+}
+nav .searchbar{
+    display: flex;
+    align-items: center;
+}
+nav .searchbar input{
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+nav .navigation ul .navigation-li{
+    list-style-type: none;
+}
+nav .navigation ul .navigation-li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+nav .navigation ul .navigation-li a:hover{
+    border-bottom: 2px solid white;
+}
+/* navigation bar end */
+/* Carousel */
+.welcomeText{
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 50vw;
+    margin: auto;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* Carousel End */
+/* Testimonials start */
+.testimonialCont{
+    background-color: black;
+    padding: 30px;
+}
+.testimonialCont h2{
+    font-weight: bold;
+    color: white;
+}
+.testimonialCont .testimonials{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.testimonials .testimony{
+    background-color: whitesmoke;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;  
+    font-size: 20px; 
+    margin: 40px;
+    margin-top: 90px;
+    padding: 30px;
+    width: 300px;
+    height: 350px;
+}
+.testimonials .testimony p{
+    font-weight: bold;
+}
+.testimonials .testimony img{
+    margin-top: -100px;
+}
+/* Testimonials end */
+/* Contact us Form */
+.contactusCont{
+    font-size: 20px;
+    margin: auto;
+    padding: 30px;
+    color: rgb(62, 71, 116);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactusCont form{
+    text-align: left;
+}
+.contactusCont input{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(62, 71, 116);
+    width: 65vw;
+    margin-bottom: 10px;
+}
+.contactusCont textarea{
+    border: 2px solid rgb(62, 71, 116);
+    border-radius: 10px;
+    width: 65vw;
+    margin-bottom: 10px;
+}
+
+/* Contact us form end */
+/* Footer */
+footer{
+    background-color: rgb(62, 71, 116);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+footer .bottomnav ul li a{
+    color: white;
+}
+footer .bottomnav ul li a:hover{
+    font-weight: bold;
+}
+footer svg{
+    margin-left: 20px;
+    width: 50px;
+}
+footer .social-icons{
+    background-color: rgba(255, 255, 255, 0.699);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+footer .copyright a{
+    color: rgba(214, 213, 238, 0.534);
+    font-weight: bold;
+}
+/* Footer End */
+
+
