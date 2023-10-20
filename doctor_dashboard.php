@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="container">
-
+<!-- Doctor's dashboard -->
         <div id="sidebar">
             <div id="myLogo">
                 <img src="images/mylogo.jpg" alt="logo">
