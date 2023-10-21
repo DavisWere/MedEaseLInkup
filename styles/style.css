@@ -41,7 +41,7 @@ body {
 }
 #sidebar ul li a {
   text-decoration: none;
-  color: rgb(62, 71, 116);
+  color: rgb(8, 13, 80);
 }
 #sidebar ul li a:hover {
   font-weight: bold;
@@ -63,7 +63,7 @@ body {
 .main .topbar {
   min-height: 15vh;
   padding: 10px;
-  background-color: rgb(62, 71, 116);
+  background-color: rgb(8, 13, 80);
   color: whitesmoke;
   letter-spacing: 0.1em;
   display: flex;
@@ -189,7 +189,7 @@ display: none;
 }
 
 .aside .myIcon #myName {
-  color: rgb(62, 71, 116);
+  color: rgb(8, 13, 80);
   font-weight: bold;
   text-transform: uppercase;
   padding: 10px;
@@ -205,7 +205,7 @@ display: none;
 .aside .appointments h2 {
   font-weight: bold;
   font-size: 25px;
-  color: rgb(62, 71, 116);
+  color: rgb(8, 13, 80);
   text-shadow: 3px 2px 6px;
 }
 .aside .appointments ul {
@@ -231,7 +231,7 @@ display: none;
 .aside .notifications h2 {
   font-weight: bold;
   font-size: 25px;
-  color: rgb(62, 71, 116);
+  color: rgb(8, 13, 80);
   text-shadow: 3px 2px 6px;
 }
 .aside .notifications ul {
@@ -251,7 +251,7 @@ footer {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  background-color: rgb(62, 71, 116);
+  background-color: rgb(8, 13, 80);
   color: white;
   padding: 15px;
 }
@@ -437,7 +437,7 @@ margin-left: -60px;
 #patient-count{
   min-width: 300px;
   margin-bottom: 10px;
-  background-color: rgb(62, 71, 116);
+  background-color: rgb(8, 13, 80);
 }
 #doctor-count{
   min-width: 300px;

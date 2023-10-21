@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(62, 71, 116);
+    background-color: rgb(8, 13, 80);
     color: white;
 }
 nav .top{
@@ -72,6 +72,13 @@ nav .navigation ul .navigation-li a:hover{
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 30px;
+
+}
+.servicesCont .serviceContainer .serviceText{
+    padding: 20px;
+    margin: auto;
+    width: 60vw;
+    font-size: 18px;
 }
 .servicesCont .serviceContainer .registerLink{
     border: 2px solid black;
@@ -84,7 +91,7 @@ nav .navigation ul .navigation-li a:hover{
 }
 .servicesCont .serviceContainer .registerLink a{
     /* text-decoration: none; */
-    color: rgb(62, 71, 116);
+    color: rgb(8, 13, 80);
 }
 .servicesCont .serviceContainer .registerLink a:hover{
     font-weight: bold;
@@ -101,8 +108,8 @@ nav .navigation ul .navigation-li a:hover{
 .servicesCont .serviceContainer .servicebtn .servbtn{
     margin: 20px;
     font-size: 30px;
-    color: rgb(62, 71, 116);
-    border-bottom: 2px solid rgb(62, 71, 116);
+    color: rgb(8, 13, 80);
+    border-bottom: 2px solid rgb(8, 13, 80);
 }
 
 .patientCont ul{
@@ -138,12 +145,11 @@ nav .navigation ul .navigation-li a:hover{
 /* Services end */
 /* Testimonials start */
 .testimonialCont{
-    background-color: black;
+    background-color: white;
     padding: 30px;
 }
 .testimonialCont h2{
     font-weight: bold;
-    color: white;
 }
 .testimonialCont .testimonials{
 
@@ -152,7 +158,8 @@ nav .navigation ul .navigation-li a:hover{
     align-items: center;
 }
 .testimonials .testimony{
-    background-color: whitesmoke;
+    background-color: rgb(198, 198, 206);
+    color: white;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;  
     font-size: 20px; 
@@ -174,7 +181,7 @@ nav .navigation ul .navigation-li a:hover{
     font-size: 20px;
     margin: auto;
     padding: 30px;
-    color: rgb(62, 71, 116);
+    color: rgb(8, 13, 80);
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -186,12 +193,12 @@ nav .navigation ul .navigation-li a:hover{
 .contactusCont input{
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid rgb(62, 71, 116);
+    border: 2px solid rgb(8, 13, 80);
     width: 65vw;
     margin-bottom: 10px;
 }
 .contactusCont textarea{
-    border: 2px solid rgb(62, 71, 116);
+    border: 2px solid rgb(8, 13, 80);
     border-radius: 10px;
     width: 65vw;
     margin-bottom: 10px;
@@ -200,7 +207,7 @@ nav .navigation ul .navigation-li a:hover{
 /* Contact us form end */
 /* Footer */
 footer{
-    background-color: rgb(62, 71, 116);
+    background-color: rgb(8, 13, 80);
     color: white;
     padding-top: 30px;
     padding-bottom: 10px;

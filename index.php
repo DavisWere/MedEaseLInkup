@@ -28,7 +28,7 @@
            <div class="navigation" style="padding-top: 12px;">
                 <ul class="navigation-ul">
                     <li class="navigation-li"><a class="navigation-a" href="index.php">Home</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="#">Services</a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="#ourservices">Services</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#">About</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#">Blog</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#testimonials">Testimonials</a></li>
@@ -84,10 +84,12 @@
       </div>
     <!-- Carousel end -->
     <!-- Services start -->
-    <div class="servicesCont">
+    <div class="servicesCont" id="ourservices">
         <div class="serviceContainer">
-        <h2><b>OUR SERVICES</b></h2>
-            <div class="servicebtn">
+        <h2><b>OUR SERVICES</b></h2> <hr>
+        <p class="serviceText">Welcome to Med-Ease online medical platform, where we provide a diverse spectrum of services tailored to meet the unique needs of both healthcare professionals and patients.</p>
+        <hr>   
+        <div class="servicebtn">
                 <h3 class="servbtn" id="patientBtn">Patient</h3>
                 <h3 class="servbtn" id="doctorBtn">Doctor</h3>
             </div>
@@ -137,7 +139,7 @@
                 </ul>
 
             </div>
-            <div class="separater" style="border: 1px solid rgb(62, 71, 116);"></div>
+            <div class="separater" style="border: 1px solid rgb(8, 13, 80);"></div>
             <div class="doctorCont">
                 <ul>
                     <li class="doctor-list">
@@ -331,9 +333,9 @@
                 <ul style="list-style-type: none;" class="footer_links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#ourservices">Services</a></li>
                     <li><a href="#">New Article</a></li>
-                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
                 </ul>
             </div> 
             <div class="col social-icons">
