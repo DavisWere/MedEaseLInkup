@@ -60,6 +60,82 @@ nav .navigation ul .navigation-li a:hover{
     font-size: 30px;
 }
 /* Carousel End */
+/* Services start */
+.servicesCont{
+    background-color: whitesmoke;
+    padding: 40px;
+}
+.servicesCont .serviceContainer{
+    background-color: rgba(196, 196, 216, 0.363);
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.servicesCont .serviceContainer .registerLink{
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 250px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.servicesCont .serviceContainer .registerLink a{
+    /* text-decoration: none; */
+    color: rgb(62, 71, 116);
+}
+.servicesCont .serviceContainer .registerLink a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+.servicesCont .serviceContainer .userCont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.servicesCont .serviceContainer .servicebtn{
+    display: flex;
+    justify-content: space-around;
+}
+.servicesCont .serviceContainer .servicebtn .servbtn{
+    margin: 20px;
+    font-size: 30px;
+    color: rgb(62, 71, 116);
+    border-bottom: 2px solid rgb(62, 71, 116);
+}
+
+.patientCont ul{
+    text-align: left;
+}
+.patientCont ul li{
+    list-style-type: none;
+}
+.patientCont ul .patient-list li::before{
+    content: '≻';
+    margin-right: 0.5em;
+}
+.patientCont ul .patient-list p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+}
+/* Doctor services */
+.doctorCont ul{
+    text-align: left;
+}
+.doctorCont ul li{
+    list-style-type: none;
+}
+.doctorCont ul .doctor-list li::before{
+    content: '≻';
+    margin-right: 0.5em;
+}
+.doctorCont ul .doctor-list p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+/* Services end */
 /* Testimonials start */
 .testimonialCont{
     background-color: black;

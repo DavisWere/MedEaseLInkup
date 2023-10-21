@@ -6,7 +6,7 @@
     <title>MedEaseLinkup home page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monospace">
-    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 
   <body>
@@ -82,7 +82,103 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    <!-- Carousel end -->
+    <!-- Services start -->
+    <div class="servicesCont">
+        <div class="serviceContainer">
+        <h2><b>OUR SERVICES</b></h2>
+            <div class="servicebtn">
+                <h3 class="servbtn" id="patientBtn">Patient</h3>
+                <h3 class="servbtn" id="doctorBtn">Doctor</h3>
+            </div>
+          <div class="userCont">
+            <div class="patientCont">
+                <ul>
+                    <li class="patient-list">
+                        <p>Book appointments</p>
+                        <ul>
+                            <li>Schedule appointments with ease</li>
+                            <li>Browse specialists for tailored care</li>
+                            <li>Receive reminders for hassle-free planning</li>
+                        </ul>
+                    </li>
+                    <li class="patient-list">
+                        <p>Online Consultations</p>
+                        <ul>
+                            <li>Consultations from home</li>
+                            <li>Connect with certified doctors</li>
+                            <li>Get diagnoses and recommendations</li>
+                        </ul>
+                    </li>
+                    <li class="patient-list">
+                        <p>Prescription Management</p>
+                        <ul>
+                            <li>Store and access your records</li>
+                            <li>Request refills effortlessly</li>
+                            <li>Maintain your health journey</li>
+                        </ul>
+                    </li>
+                    <li class="patient-list">
+                        <p>Secure Messaging</p>
+                        <ul>
+                            <li>Private doctor-patient chats</li>
+                            <li>Seek advice and clarification</li>
+                            <li>Trust your data's safety</li>
+                        </ul>
+                    </li>
+                    <li class="patient-list">
+                        <p>Health Resources:</p>
+                        <ul>
+                            <li>Access reliable healthcare info</li>
+                            <li>Stay informed and make choices</li>
+                            <li>Empower your health decisions</li>
+                        </ul>
+                    </li>
+                </ul>
 
+            </div>
+            <div class="separater" style="border: 1px solid rgb(62, 71, 116);"></div>
+            <div class="doctorCont">
+                <ul>
+                    <li class="doctor-list">
+                        <p>Practice Management</p>
+                        <ul>
+                            <li>Streamline your practice</li>
+                            <li>Manage appointments and records</li>
+                            <li>Communicate securely</li>
+                        </ul>
+                    </li>
+                    <li class="doctor-list">
+                        <p>Doctor Collaboration</p>
+                        <ul>
+                            <li>Connect with peers</li>
+                            <li>Share knowledge, get insights</li>
+                            <li>Expand professional network</li>
+                        </ul>
+                    </li>
+                    <li class="doctor-list">
+                        <p>Subscription Plans</p>
+                        <ul>
+                            <li>Customize your practice</li>
+                            <li>Control patient load and income</li>
+                            <li>Choose what suits you best</li>
+                        </ul>
+                    </li>
+                    <li class="doctor-list">
+                        <p>Professional Growth</p>
+                        <ul>
+                            <li>Stay updated and skilled</li>
+                            <li>Access educational resources</li>
+                            <li>Deliver top-notch care</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="registerLink"><a href="#">REGISTER</a></div>
+        </div>
+    </div>
+    <!-- Services end -->
 
    <!-- body-content start -->
     <div>
