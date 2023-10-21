@@ -1,7 +1,7 @@
 <?php
 
-  $conn = mysqli_connect("localhost", "root", "", "mel");
-  $result = mysqli_query($conn, "SELECT first_name, image FROM doctor");
+//   $conn = mysqli_connect("localhost", "root", "", "mel");
+//   $result = mysqli_query($conn, "SELECT first_name, image FROM doctor");
 
 
 ?>

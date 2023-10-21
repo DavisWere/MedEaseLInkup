@@ -250,7 +250,7 @@
                 <p><b>Read more ..</b></p>
             </div>
             <div class="article">
-                <p style="color: rgb(8, 13, 80)"><i><b><u>The Future of Telemedicine: Exploring the Impact of Remote Healthcare</u></b></i></p>
+                <p style="color: rgb(8, 13, 80)"><i><b><u>Staying Healthy at Home: Wellness Tips During Challenging Times</u></b></i></p>
                 <p>We offer practical advice on maintaining your physical and mental well-being, especially during uncertain times. Explore simple steps to prioritize your health in the comfort of your home.</p>
                 <p><b>Read more ..</b></p>
             </div>
@@ -305,7 +305,7 @@
             <label for="email" id="email">Email Address:</label><br>
             <input type="email" name="email" id="email" placeholder="Enter Your Email.."><br>
             <label for="message" id="message">Message:</label><br>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter enquiry.."></textarea><br>
+            <textarea name="message" id="message" cols="30" rows="7" placeholder="Enter enquiry.."></textarea><br>
             <input style="width: 300px; background-color:black; color: white;border: none;" type="submit" id="submitbtn"  value="Submit">
         </form>
      </div>
