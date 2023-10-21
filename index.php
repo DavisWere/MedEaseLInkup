@@ -29,8 +29,8 @@
                 <ul class="navigation-ul">
                     <li class="navigation-li"><a class="navigation-a" href="index.php">Home</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#ourservices">Services</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="#">About</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="#">Blog</a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="#about">About</a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="#blog">Blog</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#testimonials">Testimonials</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#"><b>REGISTER</b></a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#"><b>LOGIN</b></a></li>
@@ -83,6 +83,9 @@
         </button>
       </div>
     <!-- Carousel end -->
+    <!-- Arrow up -->
+    <div class="arrowup"><a href="#"><b>↑</b></a></div>
+    <!-- Arrow up -->
     <!-- Services start -->
     <div class="servicesCont" id="ourservices">
         <div class="serviceContainer">
@@ -181,106 +184,96 @@
         </div>
     </div>
     <!-- Services end -->
+    <!-- About us start -->
+    <div class="aboutCont" id="about">
+        <h2><b>ABOUT US</b></h2>
+        <div class="aboutContent">
+            <div class="topabout">
+            <h3>Our Commitment to Care</h3>
+            <p>At Med-Ease, we are dedicated to providing you with a reliable, accessible, and compassionate online medical experience. We understand the importance of your health and well-being, and that's why we've designed our platform with your needs in mind.</p>
+            </div>
+            <div class="middleabout">
+                <h3>Why You Can Trust Us:</h3>
+                <p><b>Expertise:</b> Our platform is powered by a network of certified healthcare professionals who are passionate about delivering quality care. You can trust that you're in the capable hands of experienced doctors and medical experts.</p>
+                <p><b>Security:</b> Your health data and personal information are treated with the utmost care and security. We employ robust data encryption and privacy measures to ensure your confidentiality.</p>
+                <p><b>Convenience:</b> We're here to make healthcare accessible and convenient for you. With online consultations, appointment scheduling, and prescription management, we put your health in your hands.</p>
+            </div><hr>
+            <div class="bottomabout">
+                <div class="missionvission">
+                    <div class="missionCont" style="margin-right: 20px;">
+                        <h2><u>OUR MISSION</u></h2>
+                        <h3><i>Empowering Healthcare, Simplifying Lives</i></h3>
+                        <blockquote>Our mission is to empower individuals with seamless access to healthcare services. We aim to remove the barriers that often stand between patients and their health needs. Med-Ease strives to simplify the healthcare journey, making it more convenient and accessible for everyone.</blockquote>
+                    </div>
+                    <div class="visionCont" style="margin-left: 20px;">
+                        <h2><u>OUR VISSION</u></h2>
+                        <h3><i>Connecting Communities, Enhancing Health</i></h3>
+                        <blockquote>We envision a world where healthcare knows no boundaries. Med-Ease is committed to connecting communities with top-tier medical care, transcending geographical limitations. We see a future where healthcare is universally accessible, and individuals have the tools to take control of their well-being.</blockquote>
+                    </div>   
+                </div>
 
-   <!-- body-content start -->
-    <div>
-        <br><br><br>
-        <h1 class="member-header" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 43px;">Become A Member</h1>
-        <div class="divider" style="border-bottom: 1.95px dotted rgb(35, 59, 51); margin-right: 630px; margin-left: 630px; margin-bottom: 5px; margin-top: 2px;"></div>
-        <br>
-        <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <iframe width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/tgbNymZ7vqYautoplay=1&mute=1">
-                </iframe>
-              </div>
-              <div class="col member">
-                <br><br><br>
-                <h4 id="member-header-2">Practice-Changing Updates</h4>
-                <br>
-                <p class="member-p"> <b>MedEaseLinkup</b> provides clinicians with real-time practice-changing updates, so the best available evidence is always at their fingertips.</p>
-                <button type="button" class="btn btn-outline-primary btn-lg member-btn free_trial_btn">Request A Free Trial</button>
-              </div>
-            </div>
-          </div>
-    </div>
-
-    <!-- Page Divider Start -->
-    <!-- <div class="divider" style="border-bottom: 3px solid rgb(35, 59, 51); margin-right: 80px; margin-left: 80px; margin-bottom: 50px; margin-top: 50px;"></div> -->
-    <!-- Page Divider End -->
-
-    <br><br>
-    <div class="container overflow-hidden text-center">
-        <div class="row gy-5">
-            <div class="col-6">
-                <div class="p-3">
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="doctor-4.jpg" height="150px" width="150px" alt="..." class="rounded-circle float-start">
-                        </div>
-                        <div class="col-8">
-                            <h5>
-                                Fast Answers at the Point of Care
-                            </h5>
-                            <p style="text-align: left;">
-                                When a clinician has a question at the point of care, they need an answer fast. Supported by powerful search technology, DynaMed quickly identifies and surfaces the right content. Key takeaways, targeted synopses, and clearly defined recommendations reduce time to answer. And for times that call for a deeper dive into the research, DynaMed also provides one-click links to primary literature.
-                            </p>
-                        </div>
-                    </div>
+                <div class="valuesCont">
+                    <h2><u>OUR VALUES</u></h2>
+                    <ul>
+                        <li><b>Quality:</b> We are dedicated to delivering the highest standards of medical care and service excellence.</li>
+                        <li><b>Compassion:</b> Our approach is rooted in empathy and a deep understanding of the human aspect of healthcare.</li>
+                        <li><b>Innovation:</b> We embrace cutting-edge technology to bring you the most advanced and efficient medical solutions.</li>
+                        <li><b>Accessibility:</b> We believe that healthcare should be within reach for all, regardless of location or circumstances.</li>
+                        <li><b>Integrity:</b> Honesty and transparency are at the core of our interactions and operations.</li>
+                    </ul>
                 </div>
+            </div><hr>
+            <div class="toContactUs">
+                <p><b>Ready to Learn More? Have Questions?</b></p>
+                <p>We're here to assist you on your journey to better health. If you have any questions, need assistance, or want to explore how Med-Ease can serve your healthcare needs, please don't hesitate to reach out to us.</p>
+                <span>👇</span>
+                <p><a href="#contactus" style="color: rgb(8, 13, 80);font-size: 20px;text-decoration: dotted; letter-spacing: .03em;"><b>Contact Us Today</b></a></p>
             </div>
-            <div class="col-6">
-                <div class="p-3">
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="doctor-5.jpg" height="150px" width="150px" alt="..." class="rounded-circle float-start">
-                        </div>
-                        <div class="col-8">
-                            <h5 style="text-align: center;">Confidence in Practice</h5>
-                            <p style="text-align: left;">
-                                To provide exceptional care, clinicians must have the utmost confidence in the information they use to diagnose and manage patients. DynaMed ensures peace of mind in the clinical decision-making process with content based on a rigorous, seven-step evidence-based methodology, robust systematic literature surveillance with daily updates, and clinical expertise that both complements and clarifies the evidence.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="p-3">
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="doctor-6.jpg" height="150px" width="150px" alt="..." class="rounded-circle float-start">
-                        </div>
-                        <div class="col-8">
-                            <h5>
-                                A Personalized Solution
-                            </h5>
-                            <p style="text-align: left;">
-                                Starting from the homepage, clinicians can quickly reference recent practice-changing updates and content relevant to their expertise. Additionally, DynaMed offers clinicians the opportunity to affiliate with multiple organizations, allowing for easy access at any site, and continuous tracking of DynaMed usage for CME and MOC credits.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="p-3">
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="doctor-7.jpg" height="150px" width="150px" alt="..." class="rounded-circle float-start">
-                        </div>
-                        <div class="col-8">
-                            <h5>
-                                Anytime, Anywhere Access
-                            </h5>
-                            <p style="text-align: left;">
-                                For a decision support tool to be embraced at the point of care, it must be able to seamlessly integrate into the clinical workflow. DynaMed anticipates and responds to the needs of the time-crunched clinician with features including EHR integration, on-the-go access via a convenient mobile app, and streamlined single sign-on capabilities.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
-    
+    <!-- About us end -->
+    <!-- Blog/ news section start -->
+    <div class="blogCont" id="blog">
+    <div class="blogContainer">
+        
+        <div class="topBlog">
+            <h2><b>Med-Ease Blog</b></h2>
+            <p><b><i>Stay Informed, Stay Healthy!</i></b></p>
+        </div>
+        <div class="blogArticles">
+            <p style="width: 70vw; margin: auto;">Get the latest news in healthcare, wellness, and medical advancements. Our mission is to provide you with valuable insights, health tips, and updates to help you lead a healthier, happier life. Here, you'll find a collection of articles, news, and expert opinions on a wide range of healthcare topics.</p>  
+       
+            <div class="article">
+                <p style="color: rgb(8, 13, 80)"><i><b><u>The Future of Telemedicine: Exploring the Impact of Remote Healthcare</u></b></i></p>
+                <p>In this article, we delve into the evolving world of telemedicine and how it's shaping the future of healthcare. Discover the benefits, challenges, and the role of telehealth in your medical journey.</p>
+                <p><b>Read more ..</b></p>
+            </div>
+            <div class="article">
+                <p style="color: rgb(8, 13, 80)"><i><b><u>The Future of Telemedicine: Exploring the Impact of Remote Healthcare</u></b></i></p>
+                <p>We offer practical advice on maintaining your physical and mental well-being, especially during uncertain times. Explore simple steps to prioritize your health in the comfort of your home.</p>
+                <p><b>Read more ..</b></p>
+            </div>
+            <div class="article">
+                <p style="color: rgb(8, 13, 80)"><i><b><u>Doctor's Corner: Insights from Medical Experts</u></b></i></p>
+                <p>Our "Doctor's Corner" series features interviews with healthcare professionals. Learn from experienced doctors as they share their expertise, discuss patient experiences, and provide medical insights.</p>
+                <p><b>Read more ..</b></p>
+            </div>
+        </div>
+        <div class="extrablog">
+            <p style="font-size: 20px;"><b>Featured Topics</b></p>
+            <ul>
+               <li><b>Healthy Living:</b> Explore tips for leading a healthier lifestyle, from nutrition and fitness to mental well-being.</li>
+                <li><b>Medical Technology:</b> Stay up to date with the latest advancements in medical technology, including telehealth and digital healthcare solutions.</li>
+                <li><b>Patient Stories:</b> Real-life accounts of individuals who have benefited from Med-Ease services.</li>
+            </ul>
+        </div>
+        <div class="topBlog">
+            &copy; MedEaseLinkUp Services. All Rights Reserved.
+        </div>
+    </div>
+    </div>
+    <!-- Blog end -->
     <!-- Testimonials -->
     <div class="testimonialCont" id="testimonials">
     <h2>TESTIMONIALS</h2>
@@ -306,7 +299,7 @@
 
     <!-- Testimonials End -->
      <!-- Contact Us Form start -->
-     <div class="contactusCont">
+     <div class="contactusCont" id="contactus">
         <h2><b>CONTACT US</b></h2>
         <form action="" method="post">
             <label for="email" id="email">Email Address:</label><br>
@@ -332,9 +325,9 @@
             <h5>Navigation</h5>
                 <ul style="list-style-type: none;" class="footer_links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="#about">About Us</a></li>
                     <li><a href="#ourservices">Services</a></li>
-                    <li><a href="#">New Article</a></li>
+                    <li><a href="#blog">News Article</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                 </ul>
             </div> 
@@ -393,7 +386,7 @@
             <p> <a href="#">Privacy Policy</a>  |  <a href="#">Cookie Policy</a>  |  <a href="#">Terms of Use</a> </p>
           </div>
           <div class="col">
-            <p>&copy;MedEaseLinkUp Services. All Rights Reserved.</p>
+            <p>&copy; MedEaseLinkUp Services. All Rights Reserved.</p>
           </div>
 
         </div>

@@ -60,13 +60,31 @@ nav .navigation ul .navigation-li a:hover{
     font-size: 30px;
 }
 /* Carousel End */
+/* Arrow up */
+.arrowup{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: rgb(8, 13, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+}
+.arrowup a{
+    color: white;
+    text-decoration: none;
+}
+/* Arrow up */
 /* Services start */
 .servicesCont{
     background-color: whitesmoke;
     padding: 40px;
 }
 .servicesCont .serviceContainer{
-    background-color: rgba(196, 196, 216, 0.363);
+    /* background-color: rgba(196, 196, 216, 0.363); */
     width: 80vw;
     margin: auto;
     margin-bottom: 20px;
@@ -81,17 +99,17 @@ nav .navigation ul .navigation-li a:hover{
     font-size: 18px;
 }
 .servicesCont .serviceContainer .registerLink{
-    border: 2px solid black;
+    background-color: rgb(8, 13, 80);
     border-radius: 40px;
     width: 250px;
     padding: 15px;
     margin: auto;
     margin-top: 30px;
     font-size: 25px;
+    color: white;
 }
 .servicesCont .serviceContainer .registerLink a{
-    /* text-decoration: none; */
-    color: rgb(8, 13, 80);
+    color: white;
 }
 .servicesCont .serviceContainer .registerLink a:hover{
     font-weight: bold;
@@ -143,6 +161,86 @@ nav .navigation ul .navigation-li a:hover{
 }
 
 /* Services end */
+/* About us start */
+.aboutCont{
+    background-color: white;
+    padding: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.aboutCont h2{
+    color: rgb(8, 13, 80);
+}
+.aboutCont .aboutContent{
+    width: 90vw;
+    padding: 30px;
+    margin: auto;
+}
+.aboutCont .aboutContent .topabout{
+    text-align: left;
+    padding-bottom: 20px;  
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.aboutCont .aboutContent .middleabout{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.aboutCont .aboutContent .bottomabout .missionvission{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.aboutCont .aboutContent .bottomabout .valuesCont li{
+    list-style-type: none;
+}
+
+/* About us end */
+/* Blog start */
+.blogCont{
+    background-color: whitesmoke;
+    padding: 30px;
+}
+.blogContainer{
+    background-color: white;
+    margin: auto;
+    width: 85vw;
+    text-align: center;  
+    height: 500px; 
+    overflow-y: auto;
+}
+.blogContainer .topBlog{
+    background-color: rgb(8, 13, 80);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blogContainer .blogArticles{
+    padding: 30px;
+}
+.blogContainer .blogArticles .article{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.extrablog ul{
+    text-align: left;
+    padding-left: 40px;
+}
+.extrablog ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.extrablog ul li::before{
+    content: '→';
+    margin-right: .5em;
+}
+
+/* Blog end */
 /* Testimonials start */
 .testimonialCont{
     background-color: white;
@@ -158,7 +256,7 @@ nav .navigation ul .navigation-li a:hover{
     align-items: center;
 }
 .testimonials .testimony{
-    background-color: rgb(198, 198, 206);
+    background-color: rgb(8, 13, 80);
     color: white;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;  
