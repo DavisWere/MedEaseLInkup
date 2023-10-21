@@ -15,7 +15,7 @@
         <!-- Navigation Bar Start -->
         <nav>
             <div class="top">
-                <img style="border-radius: 50%;width: 60px; height: 60px;" src="doctor-1.jpg" alt="logo">
+                <img style="border-radius: 50%;width: 60px; height: 60px;" src="images/mylogo.jpg" alt="logo">
                 <h2 style="padding: 20px; font-weight: bold;">MED-EASE</h2>
             </div>
             <div class="searchbar">
@@ -48,7 +48,7 @@
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="1000">
+          <div class="carousel-item active" data-bs-interval="3000">
             <img src="doctor-1.jpg" height="500px" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
             <div class="welcomeText">
@@ -56,7 +56,7 @@
                 </div>
               </div>
           </div>
-          <div class="carousel-item" data-bs-interval="1000">
+          <div class="carousel-item" data-bs-interval="3000">
             <img src="doctor-2.jpg" height="500px" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <div class="welcomeText">
@@ -64,7 +64,7 @@
                 </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="1000">
+          <div class="carousel-item" data-bs-interval="3000">
             <img src="doctor-5.jpg" height="500px" width="auto"class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
             <div class="welcomeText">
@@ -323,7 +323,7 @@
     <div class="container text-center" style="border-bottom: 3px solid black;">
         <div class="row align-items-center" style="padding: 30px;">
           <div class="col">
-            <img src="doctor-1.jpg" alt="logo" width="60px" height="60px" style="border-radius: 50%;">
+            <img src="images/mylogo.jpg" alt="logo" width="60px" height="60px" style="border-radius: 50%;">
             <h3>MED-EASE</h3>
           </div>
             <div class="col bottomnav">    
