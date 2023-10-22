@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* Sidebar start */
+.sidebar{
+    box-sizing: border-box;
+    width: 6.8vw;
+    height: 100vh;
+    position: fixed;
+    padding-top: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.sidebar .sidebarnav ul{
+    margin-top: 40px;
+    padding-bottom: 30px;
+
+}
+.sidebar .sidebarnav ul li{
+    list-style-type: none;
+    margin-left: -32px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.sidebar .sidebarnav ul li a{
+    color: rgb(8, 13, 80);
+}
+.sidebar .sidebarnav ul li a:hover{
+    color: black;
+}
+/* Sidebar end */
+/* main start */
+.contentMain{
+    width: 93.2vw;
+    position: relative;
+    left: 6.8vw;
+    margin-right: 0px;
+    height: auto;
+    min-height: 100vh;
+}
+/* Main end */
+/* Navbar start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(8, 13, 80);
+    color: white;
+}
+nav .search{
+    display: flex;
+    align-items: center;
+}
+nav .search input{
+    margin-right: .5em;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+}
+nav .myprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+nav .myprofile #profilearrow{
+    cursor: pointer;
+}
+
+/* navbar end */
+
+/* Doctor dashboard start */
+.doctorprofile{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: none;
+}
+.doctorprofile .profbtns{
+    display: flex;
+    font-weight: bold;
+    width: 150px;
+    justify-content: space-between;
+}
+.doctorprofile .profbtns #outprofile{
+    cursor: pointer;
+}
+.doctorprofile p{
+    margin-top: -15px;
+    font-size: 20px;
+}
+.doctorprofile ul{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.doctorprofile ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.contentMain .bodyContainer{
+    /* padding: 20px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    /* text-align: center; */
+}
+.contentMain .bodyContainer .appointmentsPending{
+    width: 85vw;
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+.contentMain .bodyContainer .appointmentsPending table{
+    text-align: left;
+}
+
+/* Doctor dashboard end */
+/* Patient records */
+.contentMain .bodyContainer .patientRecords{
+    width: 85vw;
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+.contentMain .bodyContainer .patientRecords table{
+    text-align: left;
+}
+/* Patient records end */
+/* finance records */
+.contentMain .bodyContainer .financeRecords{
+    width: 85vw;
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+.contentMain .bodyContainer .financeRecords table{
+    text-align: left;
+}
+.contentMain .bodyContainer .financeRecords .paytotal{
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+.contentMain .bodyContainer .financeRecords .paytotal table{
+    width: 500px;
+    margin: auto;
+    border: none;
+}
+.contentMain .bodyContainer .financeRecords .paytotal input{
+    width: 300px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    color: rgb(8, 13, 80);
+    border: 2px solid rgb(8, 13, 80);
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+/* finance records end */
+/* Subscription page */
+.subscribeContainer{
+    box-sizing: content-box;
+    width: 87vw;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+.subscribeContainer .subCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribeContainer .subscriptionContainer{
+    width: 350px;
+    /* height: 300px; */
+}
+.subscribeContainer .subscriptionContainer button{
+    width: 250px;
+    border: 2px solid rgb(8, 13, 80);
+    border-radius: 50px;
+    padding: 20px;
+    background-color: white;
+    color:rgb(8, 13, 80);
+    font-size: 20px;
+    margin-top: 30px;
+}
+.subscribeContainer .subscriptionContainer ul{
+    text-align: left;
+}
+.subscribeContainer .subscriptionContainer ul li{
+    padding: 5px;
+}
+.subscribeContainer .subscriptionContainer ul li::before{
+    content: '▸';
+    margin-right: .5em;
+}
+/* subscription page end */
+/* Footer start */
+footer{
+    background-color: rgb(8, 13, 80);
+    text-align: center;
+    color: white;
+    width: 93.2vw;
+    position: absolute;
+    margin-bottom: 0px;
+    left: 6.8vw;
+    padding: 10px;
+    padding-top: 25px;
+}
+/* Footer end */

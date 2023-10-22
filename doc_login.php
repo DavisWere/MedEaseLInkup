@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
         if ($row && password_verify($password, $row["password"])) {
             // User found, log them in
             echo "Login successful!";
-            header("Location:doctor_dashboard.php");
+            header("Location: doctor/doctor_dashboard.php");
             exit();
         } else {
             // User not found or password incorrect
