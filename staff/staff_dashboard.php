@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="patient_style.css">
+    <link rel="stylesheet" href="staff_style.css">
     <title>Med-Ease</title>
 </head>
 <body>
@@ -19,23 +19,18 @@
                     <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
                     <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
                   </svg></a></li>
-                <li><a href="booking.php"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                <li><a href="editblog.php"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+                    <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
+                  </svg></a></li>
+                <li><a href="patientappointments.php"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
                     <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
                     <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                   </svg></a></li>
-                <li><a href="medical_records.php"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-clipboard2-pulse-fill" viewBox="0 0 16 16">
-                    <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5Z"/>
-                    <path d="M4.085 1H3.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1h-.585c.055.156.085.325.085.5V2a1.5 1.5 0 0 1-1.5 1.5h-5A1.5 1.5 0 0 1 4 2v-.5c0-.175.03-.344.085-.5ZM9.98 5.356 11.372 10h.128a.5.5 0 0 1 0 1H11a.5.5 0 0 1-.479-.356l-.94-3.135-1.092 5.096a.5.5 0 0 1-.968.039L6.383 8.85l-.936 1.873A.5.5 0 0 1 5 11h-.5a.5.5 0 0 1 0-1h.191l1.362-2.724a.5.5 0 0 1 .926.08l.94 3.135 1.092-5.096a.5.5 0 0 1 .968-.039Z"/>
+                <li><a href="faqanswers.php"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
                   </svg></a></li>
-                <li><a href="finances.php"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
-                    <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
-                    <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
-                    <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
-                  </svg></a></li>
-
-                <li><a href="contact.php"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-inbound-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/>
+                <li><a href="messaging.php"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-right-text-fill" viewBox="0 0 16 16">
+                    <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1z"/>
                   </svg></a></li>
               </ul>
             </div>
@@ -55,7 +50,7 @@
                     <p class="nametag" style="margin-top: -25px;"><span><b>John Doe</b></span><span id="profilearrow"> ▾ </span></p>
                 </div>
             </nav>
-            <div class="myprofile patientprofile">
+            <div class="myprofile staffprofile">
                     <img src="doctor-2.jpg" alt="" width="60px" height="60px" style="border-radius: 50%;"><br>
                     <p class="nametag"><span><b>John Doe</b></span></p>
                     <ul>
@@ -70,7 +65,7 @@
                           <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
                           </svg>
                       </span>
-                      <span id="logout"><a href="../index.php" style="color: black;">
+                      <span id="logout"><a href="#" style="color: black;">
                           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
                           <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
                           <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
@@ -79,46 +74,57 @@
                     </div>
             </div>
             <div class="bodyContainer">
-                <div class="myappointments">
-                    <h2 style="text-align: center;padding: 20px;padding-left: 0;"><b>UPCOMING APPOINTMENTS</b></h2>
-                    <div class="appointmentTable">
-                        <table class="table table-bordered">
-                            <thead>
-                              <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Date / Time</th> 
-                                <th scope="col">Doctor</th>
-                                <th scope="col">Email Address</th>
-                                <th scope="col">Action</th> 
-                              </tr>
-                            </thead>
-                            <tbody class="table-group-divider">
-                              <tr>
-                                <td>1</td>
-                                <td>23/08/23 08:00:56</td>
-                                <td>Mark Nairobi</td>
-                                <td>nairobi3455@gmail.com</td>
-                               <td><button class="btn btn-primary" >Mark Complete</button></td>
-                              </tr>
-                              <tr>
-                                <td>2</td>
-                                <td>24/08/23 08:00:56</td>
-                                <td>Mark N.</td>
-                                <td>n3455@gmail.com</td>
-                               <td><button class="btn btn-primary" >Mark Complete</button></td>
-                              </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+              <h2 style="text-align: center;"><b>CUSTOMER ENQUIRIES</b></h2>
+              <div class="customerenquiries">
+                <ul class="allenquiries">
+                  <li class="enquiry" style="list-style-type: none;">
+                    <ul>
+                      <li class="enqemail">johndoe@gmail.com</li>
+                      <li class="enqtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quo ad?.</li>
+                      <li class="btn btn-secondary">Respond</li>
+                      <li class="enqdate">23/10/23 03:23PM</li>
+                    </ul>
+                  </li>
+                  <li class="enquiry" style="list-style-type: none;">
+                    <ul>
+                      <li class="enqemail">email534@gmail.com</li>
+                      <li class="enqtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi ipsum tenetur fuga doloremque debitis eaque nisi minus, nihil autem placeat et consectetur obcaecati </li>
+                      <li class="btn btn-secondary">Respond</li>
+                      <li class="enqdate">24/10/23 08:00PM</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="pastenqs">
+              <h3 style="text-align: center;">PAST ENQUIRIES</h3>
+              <div class="customerenquiries">
+                <ul class="allenquiries">
+                  <li class="enquiry" style="list-style-type: none;">
+                    <ul>
+                      <li class="enqemail">johndoe@gmail.com</li>
+                      <li class="enqtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quo ad?.</li>
+                      <li class="enqtext"><b>Response:</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium dolorum laborum et voluptas rerum.</li>
+                      <li class="enqdate">23/10/23 03:23PM</li>
+                    </ul>
+                  </li>
+                  <li class="enquiry" style="list-style-type: none;">
+                    <ul>
+                      <li class="enqemail">email534@gmail.com</li>
+                      <li class="enqtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi ipsum tenetur fuga doloremque debitis eaque nisi minus, nihil autem placeat et consectetur obcaecati </li>
+                      <li class="enqtext"><b>Response:</b>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                      <li class="enqdate">24/10/23 08:00PM</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              </div>
             </div>
-           
         </div>
     </div>
     <footer>
         <p>&copy; MedEaseLinkUp Services. All Rights Reserved.</p>
     </footer>
-    <script src="patient.js" type="text/javascript"></script>
+    <script src="staff.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

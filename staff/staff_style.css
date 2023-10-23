@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* Sidebar start */
+.sidebar{
+    box-sizing: border-box;
+    width: 6.8vw;
+    height: 100vh;
+    position: fixed;
+    padding-top: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.sidebar .sidebarnav ul{
+    margin-top: 40px;
+    padding-bottom: 30px;
+
+}
+.sidebar .sidebarnav ul li{
+    list-style-type: none;
+    margin-left: -32px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.sidebar .sidebarnav ul li a{
+    color: rgb(8, 13, 80);
+}
+.sidebar .sidebarnav ul li a:hover{
+    color: black;
+}
+/* Sidebar end */
+/* main start */
+.contentMain{
+    width: 93.2vw;
+    position: relative;
+    left: 6.8vw;
+    margin-right: 0px;
+    height: auto;
+    min-height: 100vh;
+}
+/* Main end */
+/* Navbar start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(8, 13, 80);
+    color: white;
+}
+nav .search{
+    display: flex;
+    align-items: center;
+}
+nav .search input{
+    margin-right: .5em;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+}
+nav .myprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+nav .myprofile #profilearrow{
+    cursor: pointer;
+}
+
+/* navbar end */
+
+/*staff dashboard start */
+.staffprofile{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: none;
+}
+.staffprofile .profbtns{
+    display: flex;
+    font-weight: bold;
+    width: 150px;
+    justify-content: space-between;
+}
+.staffprofile .profbtns #outprofile{
+    cursor: pointer;
+}
+.staffprofile p{
+    margin-top: -15px;
+    font-size: 20px;
+}
+.staffprofile ul{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.staffprofile ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+/* Profile end */
+.contentMain .bodyContainer{
+    /* padding: 20px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    /* text-align: center; */
+}
+.customerenquiries{
+    width: 85vw;
+    margin: auto;
+    padding: 30px;
+    /* background-color: whitesmoke; */
+    border-radius: 10px;
+    box-shadow: 2px 3px 16px solid;
+}
+.customerenquiries .allenquiries .enquiry{
+    /* background-color:  rgb(146, 144, 144); */
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 1px 1px 13px solid;
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.customerenquiries .allenquiries .enquiry ul li{
+    list-style-type: none;
+}
+.customerenquiries .allenquiries .enquiry ul .enqemail{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.customerenquiries .allenquiries .enquiry ul .enqdate{
+    text-align: right;
+}
+.customerenquiries .allenquiries .enquiry ul .btn{
+    margin-top: 20px;
+}
+/*  dashboard end */
+/* Modify blog */
+.editblogCont{
+    background-color: whitesmoke;
+    padding: 30px;
+}
+.updateContainers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.updateContainers button{
+    width: 300px;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.541);
+    
+}
+.updateContainers .addblog button{
+    color:  rgb(11, 11, 179);
+}
+.updateContainers .editblog button{
+    color:  green;
+}
+.updateContainers .deleteblog button{
+    color:  red;
+}
+/* Modify blog */
+/* Blog start */
+.blogCont{
+    background-color: whitesmoke;
+    padding: 30px;
+}
+.blogContainer{
+    background-color: white;
+    margin: auto;
+    width: 80vw;
+    text-align: center;  
+    height: 500px; 
+    overflow-y: auto;
+}
+.blogContainer .topBlog{
+    background-color: rgb(8, 13, 80);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blogContainer .blogArticles{
+    padding: 30px;
+}
+.blogContainer .blogArticles .article{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.extrablog ul{
+    text-align: left;
+    padding-left: 40px;
+}
+.extrablog ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.extrablog ul li::before{
+    content: '→';
+    margin-right: .5em;
+}
+/* Blog end */
+/*patient appointment  records */
+.contentMain .bodyContainer .patientApp{
+    width: 90vw;
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+.contentMain .bodyContainer .patientApp table{
+    text-align: left;
+}
+/*  records end */
+/* FAQs start */
+.faqsCont{
+    width: 85vw;
+    font-weight: 20px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.faqsCont ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+/* FAQs end */
+/* Footer start */
+footer{
+    background-color: rgb(8, 13, 80);
+    text-align: center;
+    color: white;
+    width: 93.2vw;
+    position: absolute;
+    margin-bottom: 0px;
+    left: 6.8vw;
+    padding: 10px;
+    padding-top: 25px;
+}
+/* Footer end */

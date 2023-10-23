@@ -52,7 +52,7 @@ nav .navigation ul .navigation-li a:hover{
 /* Carousel */
 .welcomeText{
     background-color: rgba(0, 0, 0, 0.582);
-    width: 50vw;
+    width: 60vw;
     margin: auto;
     border-radius: 30px;
     color: white;
@@ -66,6 +66,8 @@ nav .navigation ul .navigation-li a:hover{
     height: 50px;
     position: fixed;
     background-color: rgb(8, 13, 80);
+    border: 2px solid white;
+    border-radius: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +83,8 @@ nav .navigation ul .navigation-li a:hover{
 /* Services start */
 .servicesCont{
     background-color: whitesmoke;
-    padding: 40px;
+    padding: 30px;
+    padding-top: 15px;
 }
 .servicesCont .serviceContainer{
     /* background-color: rgba(196, 196, 216, 0.363); */
@@ -90,6 +93,7 @@ nav .navigation ul .navigation-li a:hover{
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 30px;
+    padding-top: 10px;
 
 }
 .servicesCont .serviceContainer .serviceText{
@@ -208,7 +212,7 @@ nav .navigation ul .navigation-li a:hover{
     margin: auto;
     width: 85vw;
     text-align: center;  
-    height: 500px; 
+    height: 600px; 
     overflow-y: auto;
 }
 .blogContainer .topBlog{
@@ -265,7 +269,7 @@ nav .navigation ul .navigation-li a:hover{
     margin-top: 90px;
     padding: 30px;
     width: 300px;
-    height: 350px;
+    height: 400px;
 }
 .testimonials .testimony p{
     font-weight: bold;
@@ -293,15 +297,21 @@ nav .navigation ul .navigation-li a:hover{
     border-radius: 10px;
     border: 2px solid rgb(8, 13, 80);
     width: 65vw;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-.contactusCont textarea{
+.contactusCont textarea {
     border: 2px solid rgb(8, 13, 80);
     border-radius: 10px;
     width: 65vw;
     margin-bottom: 10px;
 }
-
+.contactusCont textarea .indexcontactbtn{
+    width: 300px;
+    background-color:black;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
 /* Contact us form end */
 /* Footer */
 footer{

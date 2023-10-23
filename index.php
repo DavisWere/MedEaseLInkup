@@ -32,8 +32,8 @@
                     <li class="navigation-li"><a class="navigation-a" href="#about">About</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#blog">Blog</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#testimonials">Testimonials</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="register/register.php"><b>REGISTER</b></a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="register/login.php"><b>LOGIN</b></a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="registerLogin/register.php"><b>REGISTER</b></a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="registerLogin/login.php"><b>LOGIN</b></a></li>
                 </ul>
            </div> 
 
@@ -49,34 +49,24 @@
           </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
-            <img src="images/doctor-1.jpg" height="500px" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <div class="welcomeText">
-                    <p>Welcome to MedEaseLinkup</p>
-                </div>
-              </div>
+            <img src="images/doctor-1.jpg" height="550px" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="images/doctor-2.jpg" height="500px" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <div class="welcomeText">
-                    <p>Welcome to MedEaseLinkup</p>
-                </div>
-            </div>
+            <img src="images/doctor-2.jpg" height="550px" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="images/doctor-5.jpg" height="500px" width="auto"class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-            <div class="welcomeText">
-                    <p>Welcome to MedEaseLinkup</p>
-                </div>
-              </div>
+            <img src="images/doctor-5.jpg" height="550px" width="auto"class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
+        <div class="carousel-caption d-none d-md-block">
+                <div class="welcomeText">
+                    <p>Welcome to MED-EASE: Your Health, Our Priority !</p>
+                </div>
+              </div>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -180,7 +170,7 @@
                 </ul>
             </div>
           </div>
-          <div class="registerLink"><a href="#">REGISTER</a></div>
+          <div class="registerLink"><a href="registerLogin/register.php">REGISTER</a></div>
         </div>
     </div>
     <!-- Services end -->
@@ -282,17 +272,17 @@
         <div class="testimony">
             <img src="images/doctor-1.jpg" alt="image" width="100px" height="100px" style="border-radius: 50%;">
             <p>John Doe</p>
-            <blockquote>&quot;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, veniam harum? Reiciendis, autem accusantium. Possimus rem esse neque enim&quot;</blockquote>
+            <blockquote>&quot;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore sit repellat velit molestias at. Voluptatem animi iste atque culpa!&quot;</blockquote>
         </div>
         <div class="testimony">
             <img src="images/doctor-1.jpg" alt="image" width="100px" height="100px" style="border-radius: 50%;">
             <p>John Doe</p>
-            <blockquote>&quot;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, veniam harum? Reiciendis, autem accusantium. &quot;</blockquote>
+            <blockquote>&quot;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit amet voluptatibus quae eaque, totam quibusdam veniam harum exercitationem, repellendus illo corrupti aliquam animi.&quot;</blockquote>
         </div>
         <div class="testimony">
             <img src="images/doctor-1.jpg" alt="image" width="100px" height="100px" style="border-radius: 50%;">
             <p>John Doe</p>
-            <blockquote>&quot;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, veniam harum? Reiciendis, autem accusan ess!&quot;</blockquote>
+            <blockquote>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis. Eos ratione, accusamus totam vel nemo dicta ea perferendis iusto nesciunt?&quot;</blockquote>
         </div>
     </div>
     </div>
@@ -306,7 +296,7 @@
             <input type="email" name="email" id="email" placeholder="Enter Your Email.."><br>
             <label for="message" id="message">Message:</label><br>
             <textarea name="message" id="message" cols="30" rows="7" placeholder="Enter enquiry.."></textarea><br>
-            <input style="width: 300px; background-color:black; color: white;border: none;" type="submit" id="submitbtn"  value="Submit">
+            <input id="indexcontactbtn" style="width: 300px; background-color:black; color: white;border: none;margin-top: 30px;" type="submit" id="submitbtn"  value="Submit">
         </form>
      </div>
      <!-- Contact us end -->
