@@ -79,10 +79,48 @@
                         <button>ADD</button>
                     </div>
                     <div class="editblog">
-                        <button>EDIT</button>
+                        <button  id="editselect">EDIT <span id="editarrow" style="margin-left: .3em;"> ▾ </span><span id="neweditarrow" style="margin-left: .3em;"> ▴ </span></button>
+                        <div class="editselect">
+                            <ul>
+                                <li class="editarticle article1">Article1</li>
+                                <li class="editarticle article2">Article2</li>
+                                <li class="editarticle article3">Article3</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="deleteblog">
-                        <button>DELETE</button>
+                        <button id="deleteselect">DELETE <span style="margin-left: .3em;"> ▾ </span><span id="newdeletearrow" style="margin-left: .3em;"> ▴ </span></button>
+                        <div class="deleteselect">
+                            <ul>
+                                <li class="deletearticle article1">Article1</li>
+                                <li class="deletearticle article2">Article2</li>
+                                <li class="deletearticle article3">Article3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="updateforms">          
+                    <div class="addblogarticle">
+                        <h4 style="text-align: center;">Add Article</h4>
+                        <form action="" method="post">
+                            <p id="addalert"></p>
+                          <label for="blogheader" id="">Header:</label><br>
+                            <input type="text" name="blogheader" id="blogheader" placeholder="Enter header.."><br>
+                          <label for="articletext" id="">Content:</label><br>
+                            <textarea name="articletext" id="articletext" cols="30" rows="5"></textarea>
+                            <input type="submit" value="SUBMIT" class="submitbtn">
+                        </form>
+                    </div>
+                    <div class="editblogarticle">
+                        <h4 style="text-align: center;">Edit Article</h4>
+                        <form action="" method="post">
+                            <p id="addalert"></p>
+                          <label for="blogheader" id="">Header:</label><br>
+                            <input type="text" name="blogheader" id="blogheader" placeholder="Enter header.." value=""><br>
+                          <label for="articletext" id="">Content:</label><br>
+                            <textarea name="articletext" id="articletext" cols="30" rows="5"></textarea>
+                            <input type="submit" value="SUBMIT" class="submitbtn">
+                        </form>
                     </div>
                 </div>
             <!-- Blog/ news section start -->
@@ -95,7 +133,7 @@
                     </div>
                     <div class="blogArticles">
                         <p style="width: 70vw; margin: auto;">Get the latest news in healthcare, wellness, and medical advancements. Our mission is to provide you with valuable insights, health tips, and updates to help you lead a healthier, happier life. Here, you'll find a collection of articles, news, and expert opinions on a wide range of healthcare topics.</p>  
-                
+                      <div class="blogartic">
                         <div class="article">
                             <p style="color: rgb(8, 13, 80)"><i><b><u>The Future of Telemedicine: Exploring the Impact of Remote Healthcare</u></b></i></p>
                             <p>In this article, we delve into the evolving world of telemedicine and how it's shaping the future of healthcare. Discover the benefits, challenges, and the role of telehealth in your medical journey.</p>
@@ -111,6 +149,7 @@
                             <p>Our "Doctor's Corner" series features interviews with healthcare professionals. Learn from experienced doctors as they share their expertise, discuss patient experiences, and provide medical insights.</p>
                             <p><b>Read more ..</b></p>
                         </div>
+                      </div>
                     </div>
                     <div class="extrablog">
                         <p style="font-size: 20px;"><b>Featured Topics</b></p>

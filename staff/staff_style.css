@@ -172,14 +172,161 @@ nav .myprofile #profilearrow{
     background-color: rgba(128, 128, 128, 0.541);
     
 }
+/* add to blog start */
 .updateContainers .addblog button{
     color:  rgb(11, 11, 179);
 }
+.updateforms .addblogarticle{
+    width: 50vw;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 16px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.updateforms .addblogarticle #blogheader{
+    width: 45vw;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid;
+    background-color: whitesmoke;
+    text-align: left;
+}
+.updateforms .addblogarticle #articletext{
+    width: 45vw;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid;
+    background-color: whitesmoke;
+}
+.updateforms .addblogarticle .submitbtn{
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    margin: auto;
+}
+/* Add to blog end */
+/* Edit blog start */
 .updateContainers .editblog button{
     color:  green;
 }
+.updateContainers .editblog .editselect{
+    width: 300px;
+    background-color: gray;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    display: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#neweditarrow{
+    display: none;
+}
+.updateContainers .editblog .editselect .editarticle{
+    cursor: pointer;
+}
+.updateContainers .editblog .editselect li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.updateforms .editblogarticle{
+    width: 50vw;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 16px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.updateforms .editblogarticle #blogheader{
+    width: 45vw;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid;
+    background-color: whitesmoke;
+    text-align: left;
+}
+.updateforms .editblogarticle #articletext{
+    width: 45vw;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid;
+    background-color: whitesmoke;
+}
+.updateforms .editblogarticle .submitbtn{
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    margin: auto;
+}
+/* Edit blog end */
+/* Delete article start */
+.updateContainers .deleteblog .deleteselect{
+    width: 300px;
+    background-color: gray;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    display: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#newdeletearrow{
+    display: none;
+}
+.updateContainers .deleteblog .deleteselect .deletearticle{
+    cursor: pointer;
+}
+.updateContainers .deleteblog .deleteselect li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+/* Delete article end */
 .updateContainers .deleteblog button{
     color:  red;
+}
+.updateContainers .deleteblog .deleteselect{
+    width: 300px;
+    background-color: gray;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    display: none;
+}
+.updateContainers .deleteblog .deleteselect li{
+    list-style-type: none;
+    margin-bottom: 20px;
 }
 /* Modify blog */
 /* Blog start */
