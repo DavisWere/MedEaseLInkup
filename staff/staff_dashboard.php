@@ -81,16 +81,28 @@
                     <ul>
                       <li class="enqemail">johndoe@gmail.com</li>
                       <li class="enqtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quo ad?.</li>
-                      <li class="btn btn-secondary">Respond</li>
+                      <!-- <li style="display: flex;align-items: center;" class="myresponse"><input type="text" name="" id="responseinput" class="responseinput">
+                          <span class="sendarrow" style="color: rgb(8, 13, 80);"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                              <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                            </svg>
+                          </span>
+                      </li> -->
+                      <li class="respondbtn btn btn-secondary">Respond</li>
                       <li class="enqdate">23/10/23 03:23PM</li>
                     </ul>
                   </li>
                   <li class="enquiry" style="list-style-type: none;">
                     <ul>
-                      <li class="enqemail">email534@gmail.com</li>
-                      <li class="enqtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi ipsum tenetur fuga doloremque debitis eaque nisi minus, nihil autem placeat et consectetur obcaecati </li>
-                      <li class="btn btn-secondary">Respond</li>
-                      <li class="enqdate">24/10/23 08:00PM</li>
+                      <li class="enqemail">johndoe@gmail.com</li>
+                      <li class="enqtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quo ad?.</li>
+                      <!-- <li style="display: flex;align-items: center;" class="myresponse"><input type="text" name="" id="responseinput" class="responseinput">
+                          <span class="sendarrow" style="color: rgb(8, 13, 80);"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                              <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                            </svg>
+                          </span>
+                      </li> -->
+                      <li class="respondbtn btn btn-secondary">Respond</li>
+                      <li class="enqdate">23/10/23 03:23PM</li>
                     </ul>
                   </li>
                 </ul>
