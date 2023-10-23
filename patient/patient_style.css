@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* Sidebar start */
+.sidebar{
+    box-sizing: border-box;
+    width: 6.8vw;
+    height: 100vh;
+    position: fixed;
+    padding-top: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.sidebar .sidebarnav ul{
+    margin-top: 40px;
+    padding-bottom: 30px;
+
+}
+.sidebar .sidebarnav ul li{
+    list-style-type: none;
+    margin-left: -32px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.sidebar .sidebarnav ul li a{
+    color: rgb(8, 13, 80);
+}
+.sidebar .sidebarnav ul li a:hover{
+    color: black;
+}
+/* Sidebar end */
+/* main start */
+.contentMain{
+    width: 93.2vw;
+    position: relative;
+    left: 6.8vw;
+    margin-right: 0px;
+    height: auto;
+    min-height: 100vh;
+}
+/* Main end */
+/* Navbar start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(8, 13, 80);
+    color: white;
+}
+nav .search{
+    display: flex;
+    align-items: center;
+}
+nav .search input{
+    margin-right: .5em;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+}
+nav .myprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+nav .myprofile #profilearrow{
+    cursor: pointer;
+}
+
+/* navbar end */
+
+/* patient dashboard start */
+.patientprofile{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: none;
+}
+.patientprofile .profbtns{
+    display: flex;
+    font-weight: bold;
+    width: 150px;
+    justify-content: space-between;
+}
+.patientprofile .profbtns #outprofile{
+    cursor: pointer;
+}
+.patientprofile p{
+    margin-top: -15px;
+    font-size: 20px;
+}
+.patientprofile ul{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.patientprofile ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.contentMain .bodyContainer{
+    /* padding: 20px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    /* text-align: center; */
+}
+.contentMain .bodyContainer .myappointments{
+    width: 85vw;
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+.contentMain .bodyContainer .myappointments table{
+    text-align: left;
+}
+
+/* patient dashboard end */
+/* Booking start */
+.bookingContainer{
+    padding: 20px;
+}
+.bookingCont{
+    border: 2px solid rgb(8, 13, 80);
+    border-radius: 30px;
+    width: 50vw;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+}
+.bookingCont form{
+    font-size: 20px;
+}
+.bookingCont form .bookvalue{
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 45vw;
+    background-color: whitesmoke;
+
+}
+.bookingCont form #submitbtn{
+    margin-top: 20px;
+    width: 150px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Booking end */
+/* Patient records */
+.contentMain .bodyContainer .medicalRecords{
+    width: 85vw;
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+.contentMain .bodyContainer .medicalRecords table{
+    text-align: left;
+}
+/* Patient records end */
+/* finance records */
+.contentMain .bodyContainer .financeRecords{
+    width: 85vw;
+    margin: auto;
+    /* overflow-x: hidden; */
+}
+.contentMain .bodyContainer .financeRecords table{
+    text-align: left;
+}
+.contentMain .bodyContainer .financeRecords .mytotal{
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+.contentMain .bodyContainer .financeRecords .mytotal table{
+    width: 500px;
+    margin: auto;
+    border: none;
+}
+/* finance records end */
+/* Footer start */
+footer{
+    background-color: rgb(8, 13, 80);
+    text-align: center;
+    color: white;
+    width: 93.2vw;
+    position: absolute;
+    margin-bottom: 0px;
+    left: 6.8vw;
+    padding: 10px;
+    padding-top: 25px;
+}
+/* Footer end */

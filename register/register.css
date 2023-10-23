@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+}
+/* Container start */
+.container{
+    /* background-image: url(doctor-1.jpg); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    text-align: center;
+    padding-bottom: 40px;
+}
+.container .userTitle{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.container .userTitle #patient{
+    font-size: 30px;
+    border-bottom: 3px dotted rgb(8, 13, 80);
+    cursor: pointer;
+}
+.container .userTitle #doctor{
+    font-size: 22px;
+    cursor: pointer;
+}
+.container .regContainers{
+    display: flex;
+    justify-content: center;
+}
+/* Doctor start */
+.docReg{
+    background-color: rgb(8, 13, 80);
+    color: white;
+    text-align: left;
+    width: 60vw;
+    padding: 30px;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 30px;
+    font-size: 20px;
+    display: none;
+    margin-top: 20px;
+    box-shadow: 2px 2px 16px rgb(8, 13, 80);
+}
+.docReg input{
+    padding: 17px;
+    width: 60vw;
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: none;
+}
+.docReg #regbtn{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(8, 13, 80);
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/* Patient start */
+.patientReg{
+    background-color: rgb(8, 13, 80);
+    padding-top: 5px;
+    color: white;
+    text-align: left;
+    width: 60vw;
+    padding: 30px;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 16px rgb(8, 13, 80);
+}
+.patientReg input{
+    padding: 17px;
+    width: 60vw;
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: none;
+}
+.patientReg #regbtn{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(8, 13, 80);
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/* Container end */
+/* Login form */
+.container .userTitle #patientlog{
+    font-size: 30px;
+    border-bottom: 3px dotted rgb(8, 13, 80);
+    cursor: pointer;
+}
+.container .userTitle #doctorlog{
+    font-size: 22px;
+    cursor: pointer;
+}
+.container .userTitle #stafflog{
+    font-size: 22px;
+    cursor: pointer;
+}
+/* patient login start */
+.patientLog{
+    background-color: rgb(8, 13, 80);
+    color: white;
+    text-align: left;
+    width: 60vw;
+    padding: 30px;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 30px;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    box-shadow: 2px 2px 16px rgb(8, 13, 80);
+    padding-bottom: 50px;
+}
+.patientLog input{
+    padding: 17px;
+    width: 60vw;
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: none;
+}
+.patientLog #logbtn{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(8, 13, 80);
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/* patient end */
+/* Doctor start */
+.docLog{
+    background-color: rgb(8, 13, 80);
+    color: white;
+    text-align: left;
+    width: 60vw;
+    padding: 30px;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 30px;
+    font-size: 20px;
+    display: none;
+    margin-top: 20px;
+    box-shadow: 2px 2px 16px rgb(8, 13, 80);
+}
+.docLog input{
+    padding: 17px;
+    width: 60vw;
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: none;
+}
+.docLog #logbtn{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(8, 13, 80);
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/* Doc end */
+/* staff start */
+.staffLog{
+    background-color: rgb(8, 13, 80);
+    color: white;
+    text-align: left;
+    width: 60vw;
+    padding: 30px;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 30px;
+    font-size: 20px;
+    display: none;
+    margin-top: 20px;
+    box-shadow: 2px 2px 16px rgb(8, 13, 80);
+}
+.staffLog input{
+    padding: 17px;
+    width: 60vw;
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: none;
+}
+.staffLog #logbtn{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(8, 13, 80);
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/* staff end */
+/* Login form end */
