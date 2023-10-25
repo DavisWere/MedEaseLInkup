@@ -4,20 +4,23 @@ body{
 }
 /* navigation bar start*/
 nav{
-    padding: 5px;
+    padding: 3px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(8, 13, 80);
     color: white;
 }
 nav .top{
+    margin-left: 40px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
-nav .top h2 {
-    font-size: 40px;
+
+nav .top h2{
+    margin-bottom: 0;
+    font-size: 30px;
     letter-spacing: .05em;
 }
 nav .searchbar{
@@ -25,7 +28,7 @@ nav .searchbar{
     align-items: center;
 }
 nav .searchbar input{
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
@@ -35,7 +38,7 @@ nav .navigation ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 20px;
+    font-size: 16px;
 }
 nav .navigation ul .navigation-li{
     list-style-type: none;
@@ -52,12 +55,12 @@ nav .navigation ul .navigation-li a:hover{
 /* Carousel */
 .welcomeText{
     background-color: rgba(0, 0, 0, 0.582);
-    width: 60vw;
+    width: 50vw;
     margin: auto;
     border-radius: 30px;
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 /* Carousel End */
 /* Arrow up */

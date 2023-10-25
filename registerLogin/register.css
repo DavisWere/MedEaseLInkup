@@ -3,28 +3,29 @@ body{
 }
 /* Container start */
 .container{
-    /* background-image: url(doctor-1.jpg); */
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    background-image: url(doctor-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     padding-bottom: 40px;
+    height: auto;
 }
 .container .userTitle{
-    width: 60vw;
+    width: 500px;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     font-family: sans-serif;
     text-transform: uppercase;
 }
 .container .userTitle #patient{
-    font-size: 30px;
+    font-size: 25px;
     border-bottom: 3px dotted rgb(8, 13, 80);
     cursor: pointer;
 }
 .container .userTitle #doctor{
-    font-size: 22px;
+    font-size: 16px;
     cursor: pointer;
 }
 .container .regContainers{
@@ -36,7 +37,7 @@ body{
     background-color: rgb(8, 13, 80);
     color: white;
     text-align: left;
-    width: 60vw;
+    width: 400px;
     padding: 30px;
     padding-top: 10px;
     margin: auto;
@@ -48,14 +49,14 @@ body{
 }
 .docReg input{
     padding: 17px;
-    width: 60vw;
-    border-radius: 15px;
+    width: 400px;
+    border-radius: 20px;
     margin-top: 3px;
-    margin-bottom: 5px;
+    /* margin-bottom: 7px; */
     border: none;
 }
 .docReg #regbtn{
-    width: 300px;
+    width: 200px;
     font-size: 20px;
     font-weight: bold;
     background-color: rgb(8, 13, 80);
@@ -66,32 +67,33 @@ body{
     align-content: center;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* Patient start */
 .patientReg{
     background-color: rgb(8, 13, 80);
-    padding-top: 5px;
     color: white;
     text-align: left;
-    width: 60vw;
+    width: 400px;
     padding: 30px;
     padding-top: 10px;
     margin: auto;
     border-radius: 30px;
     font-size: 20px;
+    display: block;
     margin-top: 20px;
     box-shadow: 2px 2px 16px rgb(8, 13, 80);
 }
 .patientReg input{
     padding: 17px;
-    width: 60vw;
-    border-radius: 15px;
+    width: 400px;
+    border-radius: 20px;
     margin-top: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 23px;
     border: none;
 }
 .patientReg #regbtn{
-    width: 300px;
+    width: 200px;
     font-size: 20px;
     font-weight: bold;
     background-color: rgb(8, 13, 80);
@@ -102,20 +104,21 @@ body{
     align-content: center;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* Container end */
 /* Login form */
 .container .userTitle #patientlog{
-    font-size: 30px;
+    font-size: 25px;
     border-bottom: 3px dotted rgb(8, 13, 80);
     cursor: pointer;
 }
 .container .userTitle #doctorlog{
-    font-size: 22px;
+    font-size: 16px;
     cursor: pointer;
 }
 .container .userTitle #stafflog{
-    font-size: 22px;
+    font-size: 16px;
     cursor: pointer;
 }
 /* patient login start */
@@ -123,7 +126,7 @@ body{
     background-color: rgb(8, 13, 80);
     color: white;
     text-align: left;
-    width: 60vw;
+    width: 350px;
     padding: 30px;
     padding-top: 10px;
     margin: auto;
@@ -136,14 +139,14 @@ body{
 }
 .patientLog input{
     padding: 17px;
-    width: 60vw;
-    border-radius: 15px;
+    width: 350px;
+    border-radius: 20px;
     margin-top: 3px;
     margin-bottom: 10px;
     border: none;
 }
 .patientLog #logbtn{
-    width: 300px;
+    width: 150px;
     font-size: 20px;
     font-weight: bold;
     background-color: rgb(8, 13, 80);
@@ -154,6 +157,7 @@ body{
     align-content: center;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* patient end */
 /* Doctor start */
@@ -161,7 +165,7 @@ body{
     background-color: rgb(8, 13, 80);
     color: white;
     text-align: left;
-    width: 60vw;
+    width: 350px;
     padding: 30px;
     padding-top: 10px;
     margin: auto;
@@ -173,14 +177,14 @@ body{
 }
 .docLog input{
     padding: 17px;
-    width: 60vw;
-    border-radius: 15px;
+    width: 350px;
+    border-radius: 20px;
     margin-top: 3px;
     margin-bottom: 10px;
     border: none;
 }
 .docLog #logbtn{
-    width: 300px;
+    width: 150px;
     font-size: 20px;
     font-weight: bold;
     background-color: rgb(8, 13, 80);
@@ -191,6 +195,7 @@ body{
     align-content: center;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* Doc end */
 /* staff start */
@@ -198,7 +203,7 @@ body{
     background-color: rgb(8, 13, 80);
     color: white;
     text-align: left;
-    width: 60vw;
+    width: 350px;
     padding: 30px;
     padding-top: 10px;
     margin: auto;
@@ -210,14 +215,14 @@ body{
 }
 .staffLog input{
     padding: 17px;
-    width: 60vw;
-    border-radius: 15px;
+    width: 350px;
+    border-radius: 20px;
     margin-top: 3px;
     margin-bottom: 10px;
     border: none;
 }
 .staffLog #logbtn{
-    width: 300px;
+    width: 150;
     font-size: 20px;
     font-weight: bold;
     background-color: rgb(8, 13, 80);
@@ -228,6 +233,7 @@ body{
     align-content: center;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* staff end */
 /* Login form end */

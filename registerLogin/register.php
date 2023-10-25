@@ -64,7 +64,7 @@
     <!-- Both doctor and patient registration in one -->
     <div class="container">
       <div class="userTitle">
-            <h1 id="patient">Patient Registration</h1>
+            <h1 id="patient">Patient Registration</h1> /
             <h1 id="doctor">Doctor Registration</h1>
       </div>
       <div class="regContainers">

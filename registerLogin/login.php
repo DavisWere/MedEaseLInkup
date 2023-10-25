@@ -7,13 +7,13 @@
 </head>
 <body >
     <!-- Both doctor and patient registration in one -->
-    <div class="container">
+    <div class="container" style="height: 94vh;display: flex;flex-direction: column; align-content: center;">
       <div class="userTitle">
             <h1 id="patientlog">Patient Login</h1>
             <h1 id="doctorlog">Doctor Login</h1>
             <h1 id="stafflog">Staff Login</h1>
       </div>
-      <div class="regContainers">
+      <div class="regContainers"  style="margin-bottom: 30px;margin-top: -30px;">
         <div class="patientLog">
             <h2 style="text-align: center;">PATIENT</h2>
               <label for="email" id="email">Email: </label><br>

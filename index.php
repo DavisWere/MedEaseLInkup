@@ -15,7 +15,7 @@
         <!-- Navigation Bar Start -->
         <nav>
             <div class="top">
-                <img style="border-radius: 50%;width: 60px; height: 60px;" src="images/mylogo.jpg" alt="logo">
+                <img style="border-radius: 50%;width: 50px; height: 50px;" src="images/mylogo.jpg" alt="logo">
                 <h2 style="padding: 20px; font-weight: bold;">MED-EASE</h2>
             </div>
             <div class="searchbar">
@@ -30,10 +30,12 @@
                     <li class="navigation-li"><a class="navigation-a" href="index.php">Home</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#ourservices">Services</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#about">About</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="#blog">Blog</a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="#blog">News</a></li>
                     <li class="navigation-li"><a class="navigation-a" href="#testimonials">Testimonials</a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="registerLogin/register.php"><b>REGISTER</b></a></li>
-                    <li class="navigation-li"><a class="navigation-a" href="registerLogin/login.php"><b>LOGIN</b></a></li>
+
+                    <li class="navigation-li"><a class="navigation-a" href="registerLogin/login.php"><b>SIGN UP / SIGN IN</b></a></li>
+                    <!-- <li class="navigation-li"><a class="navigation-a" href="registerLogin/register.php"><b>REGISTER</b></a></li>
+                    <li class="navigation-li"><a class="navigation-a" href="registerLogin/login.php"><b>LOGIN</b></a></li> -->
                 </ul>
            </div> 
 
@@ -49,13 +51,13 @@
           </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
-            <img src="images/doctor-1.jpg" height="550px" class="d-block w-100" alt="...">
+            <img src="images/doctor-1.jpg" height="570px" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="images/doctor-2.jpg" height="550px" class="d-block w-100" alt="...">
+            <img src="images/doctor-2.jpg" height="570px" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="3000">
-            <img src="images/doctor-5.jpg" height="550px" width="auto"class="d-block w-100" alt="...">
+            <img src="images/doctor-5.jpg" height="570px" width="auto"class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
