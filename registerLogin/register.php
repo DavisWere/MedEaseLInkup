@@ -69,6 +69,63 @@
       </div>
       <div class="regContainers">
         <div class="docReg">
+          <!-- Doctor start -->
+                        <?php
+                $conn = mysqli_connect("localhost", "root", "", "mel");
+
+
+
+                // Check the connection
+                if (!$conn) {
+                  die("Connection failed: " . mysqli_connect_error());
+                }else
+                  {
+
+                }
+
+                // Check if the form has been submitted
+                if (isset($_POST['submit'])) {
+
+
+                      // Retrieve form data
+                      $first_name = $_POST["first_name"];
+                      $last_name = $_POST["last_name"];
+                      $email = $_POST["email"];
+                      $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
+                  $verify_password = password_hash($_POST["verify_password"], PASSWORD_DEFAULT);
+                      $country = $_POST["country"];
+                      $city = $_POST["city"];
+                      $medical_id = $_POST["medical_id"];
+                      $medical_school = $_POST["medical_school"];
+                      $qualification = $_POST["qualification"];
+                      $image = $_FILES["image"]["name"];
+                  $target = "images/".basename($image);
+                      // Insert data into the "doctor" table
+                  $sql = "INSERT INTO doctor(first_name, last_name, email, password, verify_password, country, city,medical_id, medical_school, qualification, image) 
+                  VALUES ('$first_name', '$last_name','$email','$password', '$verify_password','$country', '$city', '$medical_id', '$medical_school', '$qualification', '$image')";
+
+                  $create_post_query = mysqli_query($conn, $sql);
+                  if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
+                    $msg = "Image uploaded successfully";
+                    // Redirect to wait.php
+                    header("Location:doctor_dashboard.php");
+                    exit();
+
+                  }else{
+                    $msg = "Failed to upload image";
+                  }
+                  if ($create_post_query) {
+
+                    echo "data added";
+                  } else {
+                    die("Query failed".mysqli_error($conn));
+                  }
+
+
+                  }
+
+                  ?>
+    <!-- ==== doctor end -->
         <form action=" " method="post" enctype="multipart/form-data">
             <h2 style="text-align: center;">DOCTOR</h2>
             <label for="first_name">First Name:</label><br>
@@ -110,6 +167,61 @@
         </form>
         </div>
         <div class="patientReg">
+          <!-- Patient register -->
+                        <?php
+                $conn = mysqli_connect("localhost", "root", "", "mel");
+
+
+
+                // Check the connection
+                if (!$conn) {
+                  die("Connection failed: " . mysqli_connect_error());
+                }else
+                  {
+
+                }
+
+                // Check if the form has been submitted
+                if (isset($_POST['submit'])) {
+
+
+                      // Retrieve form data
+                      $first_name = $_POST["first_name"];
+                      $last_name = $_POST["last_name"];
+                      $email = $_POST["email"];
+                      $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
+                      $verify_password = password_hash($_POST["verify_password"], PASSWORD_DEFAULT);
+                      $country = $_POST["country"];
+                      $city = $_POST["city"];
+                      $national_id =$_POST["national_id"];
+                      $phone_number =$_POST["phone_number"];
+                      $current_location = $_POST["current_location"];
+                      $street = $_POST["street"];
+                      $gender =$_POST["gender"];
+
+
+
+
+                      // Insert data into the "doctor" table
+                  $sql = "INSERT INTO patient(first_name, last_name, email, password, verify_password, country, 
+                  city,national_id, phone_number, current_location, street, gender) 
+                  VALUES ('{$first_name}', '{$last_name}','{$email}','{$password}',
+                  '{$verify_password}','{$country}', '{$city}', '{$national_id}', '{$phone_number}', '{$current_location}', '{$street}', '{$gender}')";
+
+                  $create_post_query = mysqli_query($conn, $sql);
+                  if ($create_post_query) {
+                    header("Location: patient_dashboard.php");
+                    exit();
+
+                  } else {
+                    die("Query failed".mysqli_error($conn));
+                  }
+
+
+                  }
+
+                  ?>
+                  <!-- ==== patient end ==== -->
             <h2 style="text-align: center;">PATIENT</h2>
             <form action=" " method="post" enctype="multipart/form-data">
               <label for="firstname">First Name: </label><br>

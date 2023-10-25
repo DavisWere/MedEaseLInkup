@@ -15,6 +15,51 @@
       </div>
       <div class="regContainers"  style="margin-bottom: 30px;margin-top: -30px;">
         <div class="patientLog">
+          <!-- patient login -->
+                        <?php
+              if (isset($_POST['submit'])) {
+                  // Retrieve form data
+                  $email = $_POST["email"];
+                  $password = $_POST["password"];
+
+                  // Create a database connection (replace with your database credentials)
+                  $conn = mysqli_connect("localhost", "root", "", "mel");
+
+                  if (!$conn) {
+                      die("Connection failed: " . mysqli_connect_error());
+                  }
+
+                  // Use prepared statements to prevent SQL injection
+                  $sql = "SELECT * FROM patient WHERE email = ? LIMIT 1";
+                  $stmt = mysqli_stmt_init($conn);
+
+                  if (mysqli_stmt_prepare($stmt, $sql)) {
+                      mysqli_stmt_bind_param($stmt, "s", $email);
+                      mysqli_stmt_execute($stmt);
+                      $result = mysqli_stmt_get_result($stmt);
+                      $row = mysqli_fetch_assoc($result);
+
+                      if ($row && password_verify($password, $row["password"])) {
+                          // User found, log them in
+                          echo "Login successful!";
+                          header("Location:patient_dashboard.php");
+                          exit();
+                      } else {
+                          // User not found or password incorrect
+                          $error = "Invalid email or password.";
+                          echo $error;
+                      }
+
+                      mysqli_stmt_close($stmt);
+                  } else {
+                      // Error in preparing the SQL statement
+                      $error = "SQL statement preparation error.";
+                  }
+
+                  mysqli_close($conn);
+              }
+              ?>
+              <!-- ==== end ==== -->
             <h2 style="text-align: center;">PATIENT</h2>
               <label for="email" id="email">Email: </label><br>
               <input type="email" name="email" id="email" placeholder="Email address.."><br>
@@ -25,6 +70,51 @@
             </form>
         </div>
         <div class="docLog">
+          <!-- doctor start -->
+                          <?php
+                if (isset($_POST['submit'])) {
+                    // Retrieve form data
+                    $email = $_POST["email"];
+                    $password = $_POST["password"];
+
+                    // Create a database connection (replace with your database credentials)
+                    $conn = mysqli_connect("localhost", "root", "", "mel");
+
+                    if (!$conn) {
+                        die("Connection failed: " . mysqli_connect_error());
+                    }
+
+                    // Use prepared statements to prevent SQL injection
+                    $sql = "SELECT * FROM doctor WHERE email = ? LIMIT 1";
+                    $stmt = mysqli_stmt_init($conn);
+
+                    if (mysqli_stmt_prepare($stmt, $sql)) {
+                        mysqli_stmt_bind_param($stmt, "s", $email);
+                        mysqli_stmt_execute($stmt);
+                        $result = mysqli_stmt_get_result($stmt);
+                        $row = mysqli_fetch_assoc($result);
+
+                        if ($row && password_verify($password, $row["password"])) {
+                            // User found, log them in
+                            echo "Login successful!";
+                            header("Location: doctor/doctor_dashboard.php");
+                            exit();
+                        } else {
+                            // User not found or password incorrect
+                            $error = "Invalid email or password.";
+                            echo $error;
+                        }
+
+                        mysqli_stmt_close($stmt);
+                    } else {
+                        // Error in preparing the SQL statement
+                        $error = "SQL statement preparation error.";
+                    }
+
+                    mysqli_close($conn);
+                }
+                ?>
+<!-- ==== doc end ==== -->
           <form action=" " method="post" enctype="multipart/form-data">
               <h2 style="text-align: center;">DOCTOR</h2>
               <label for="email" id="email">Email:</label><br>
